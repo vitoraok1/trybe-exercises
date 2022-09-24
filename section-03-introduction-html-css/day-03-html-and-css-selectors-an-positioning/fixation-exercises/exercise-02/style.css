@@ -29,4 +29,8 @@
   
   .bowser {
     width: 200px;
+    position: absolute;
+    left: 550px;
+    top: 350px;
+    z-index: 5;
   }

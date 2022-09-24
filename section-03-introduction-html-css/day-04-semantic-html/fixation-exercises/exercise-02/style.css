@@ -158,3 +158,20 @@ hr {
 .link-source:hover {
     color: aqua;
 }
+
+.aside {
+    width: 43%;
+    text-align: justify;
+    padding: 15px 15px 0;
+    color: #f2e9e4;
+    float: right;
+    font-size: 20px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 15px 0;
+    color: #f2e9e4;
+    float: left;
+}

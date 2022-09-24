@@ -9,3 +9,17 @@ li:hover{
 li:active{
     font-family: sans-serif;
 }
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}

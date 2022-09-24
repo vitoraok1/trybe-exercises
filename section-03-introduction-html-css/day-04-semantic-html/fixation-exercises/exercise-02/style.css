@@ -3,3 +3,55 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 2%;
 }
+
+h1 {
+    padding: 22px 5px 0;
+    text-align: center;
+    font-size: 34px;
+    color: #f2e9e4;
+}
+
+.header {
+    background-color: #0F8BAB;
+    padding: 0 5%;
+    height: 5em;
+    margin: 0%;
+    border-radius: 3em;
+    box-shadow: 1px 1px 1px 3px #1A1A2E;
+    display: block;
+    align-items: center;
+}
+
+.navigation {
+    background-color: #48B9B5;
+    text-align: center;
+    padding: 0 1%;
+    height: 2em;
+    margin: 0%;
+    border-radius: 2em;
+    box-shadow: 1px 1px 1px 3px #1A1A2E;
+    display: block;
+  }
+  
+.navigation ul {
+    padding: 5px 0;
+}
+
+.navigation li {
+    margin-right: 40px;
+    list-style: none;
+    display: inline;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+h2 {
+    padding: 65px 25px 0;
+    text-align: center;
+    font-size: 25px;
+    color: #48B9B5;
+}

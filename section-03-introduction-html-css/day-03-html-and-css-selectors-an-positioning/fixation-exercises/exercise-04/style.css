@@ -36,3 +36,7 @@ h3 {
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
 }
+
+div:nth-child(odd) {
+    font-style: italic;
+}

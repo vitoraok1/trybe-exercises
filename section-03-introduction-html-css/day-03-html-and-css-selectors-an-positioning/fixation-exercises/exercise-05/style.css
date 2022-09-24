@@ -26,3 +26,11 @@ li {
 li em {
     font-weight: bold;
 }
+
+.programming-languages li:nth-child(-n+3) {
+    color: blue;
+}
+
+.programming-languages li:nth-child(-n+3):not(:first-child) {
+    background-color: magenta;
+}

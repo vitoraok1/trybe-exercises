@@ -34,3 +34,27 @@ li em {
 .programming-languages li:nth-child(-n+3):not(:first-child) {
     background-color: magenta;
 }
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+#stack:hover {
+    color: rgb(244, 127, 36);
+}
+
+#w3schools:hover {
+    color: rgb(4, 170, 109);
+}
+
+#mdn:hover {
+    color: #1b1b1b;
+}
+
+#devdocs:hover {
+    color: yellow;
+}
+
+#trybe:hover {
+    color: #065220;
+}

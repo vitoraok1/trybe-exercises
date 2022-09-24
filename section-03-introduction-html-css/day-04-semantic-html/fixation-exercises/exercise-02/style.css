@@ -141,3 +141,20 @@ hr {
     border-style: double;
     margin-top: 3%;
 }
+
+.references {
+    width: 43%;
+    text-align: justify;
+    padding: 15px 15px 0;
+    color: #f2e9e4;
+    float: left;
+}
+
+.link-source {
+    text-decoration: none;
+    color: #0F8BAB;
+}
+
+.link-source:hover {
+    color: aqua;
+}

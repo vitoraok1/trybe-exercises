@@ -1,0 +1,40 @@
+
+    h1 {
+    text-align: center;
+    }
+
+    .podium {
+        padding: 6%;
+        padding-top: 0%;
+        margin-top: -5px;
+    }
+
+    .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    }
+
+    .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    }
+
+    .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    }
+
+    .second-and-third {
+        width: 50%;
+        float: left;
+    }

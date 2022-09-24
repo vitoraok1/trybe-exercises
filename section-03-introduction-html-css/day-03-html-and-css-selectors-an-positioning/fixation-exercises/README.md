@@ -1,8 +1,8 @@
-## 1. Fixação:
+## 1. Fixation:
 
-Contem exercicios divididos por cada tema abordado como uma proposta de fixar realmente o conteúdo disponibilizado, sendo eles:
+The content was determined by each proposed theme as really a proposed solution available, being they
 
-- Box Model
-- Posicionamento de Elementos
-- Agrupamento de Seletores e Pseudoclasses
-- Combinações e Classes Descendentes
+- Box model
+- Positioning of Elements
+- Grouping of Selectors and Pseudoclasses
+- Combinations and 

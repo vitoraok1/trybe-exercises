@@ -55,3 +55,89 @@ h2 {
     font-size: 25px;
     color: #48B9B5;
 }
+
+h3 {
+    color: #48B9B5;;
+}
+
+.first-section {
+    width: 43%;
+    text-align: justify;
+    padding: 15px 15px 0;
+    color: #f2e9e4;
+    float: left;
+}
+
+.first-secton p {
+    line-height: 160%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #f2e9e4;
+    text-align: left;
+    padding: 16px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+.photo-source {
+    font-size: 13px;
+    text-align: left;
+    margin: auto;
+  }
+
+.photo-source a {
+    text-decoration: none;
+    color: #0F8BAB;
+  }
+
+.photo-source a:hover {
+    color: aqua;
+  }
+
+.second-section {
+    width: 43%;
+    text-align: justify;
+    padding: 15px 15px 0;
+    color: #f2e9e4;
+    float: right;
+}
+
+.second-section p {
+    line-height: 160%;
+}
+
+.third-section {
+    width: 43%;
+    text-align: justify;
+    padding: 0 15px 0;
+    color: #f2e9e4;
+    float: right;
+}
+
+.third-section p {
+    line-height: 160%;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #4a4e69;
+}
+
+tr:nth-child(even) {
+    background-color: #1A1A2E;
+}
+
+hr {
+    color: #4a4e69;
+    border-style: double;
+    margin-top: 3%;
+}

@@ -15,7 +15,7 @@ git clone https://github.com/vitoraok1/trybe-exercises.git
 ```
 Then, you have to change branches according to the lecture you want to visit:
 ```git
-git checkout exercises/module-session.day
+git checkout exercises/module-section.day
 ```
 The lecture number is displayed in the section Trybe Lectures as `lecture_number: content`.
 - :hourglass_flowing_sand: - Ongoing
@@ -24,18 +24,19 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 # Trybe Lectures
 ## Introduction - Fundamentals of Web Development :hourglass_flowing_sand:
-##### Session 1: Introduction - Unix & Shell :heavy_check_mark:
+
+##### Section 1: Introduction - Unix & Bash :heavy_check_mark:
 
 - [X] 1.1: Unix & Bash - Part 1
 - [X] 1.2: Unix & Bash - Part 2
 
-##### Session 2: Git & GitHub :heavy_check_mark:
+##### Section 2: Git, GitHub & Internet:heavy_check_mark:
 
 - [X] 2.1: What it is and what it's meant for
 - [X] 2.2: Understandign the commands
 - [X] 2.3: Internet - How it works?
 
-##### Session 3: Introduction to HTML & CSS :heavy_check_mark:
+##### Section 3: Introduction to HTML & CSS :heavy_check_mark:
 
 - [X] 3.1: HTML & CSS - Page structures
 - [X] 3.2: HTML & CSS - First steps in CSS
@@ -43,7 +44,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.4: Semantic HTML
 - [X] 3.5: Project - Lessons Learned
 
-##### Session 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
+##### Section 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
 
 - [X] 4.1: JavaScript - First steps
 - [X] 4.2: JavaScript - Array and for loops
@@ -51,7 +52,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 4.4: JavaScript - Objects and functions
 - [ ] 4.5: Project - Playground Functions
 
-##### Session 5: Introdução - JavaScript - DOM, Events and Web Storage :closed_book:
+##### Section 5: Introdução - JavaScript - DOM, Events and Web Storage :closed_book:
 
 - [ ] 5.1: JavaScript - DOM and selectors
 - [ ] 5.2: JavaScript - Working with elements
@@ -63,7 +64,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 5.6: (Bonus) Project - Gess the Color
 - [ ] 5.6: (Bonus) Project - Mysterious Letter
 
-##### Session 6: HTML & CSS - Forms, Flexbox and Responsive :closed_book:
+##### Section 6: HTML & CSS - Forms, Flexbox and Responsive :closed_book:
 
 - [ ] 6.1: HTML & CSS - Forms
 - [ ] 6.2: JavaScript Libraries and CSS Frameworks
@@ -79,7 +80,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 7.3: Unit tests in JavaScript
 - [ ] 7.4: Project - JavaScript Unit Tests
 
-##### Session 8: JavaScript ES6 :closed_book:
+##### Section 8: JavaScript ES6 :closed_book:
 
 - [ ] 8.1: JavaScript ES6 - Introduction to Higher Order Functions
 - [ ] 8.2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
@@ -90,44 +91,44 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ## Front-end Development :closed_book:
 
-##### Session 1: Javascript and Asynchronous Tests :closed_book:
+##### Section 1: Javascript and Asynchronous Tests :closed_book:
 
 - [ ] 1.1: Asynchronous JavaScript and Callbacks
 - [ ] 1.2: Asynchronous JavaScript - Fetch API and async/await
 - [ ] 1.3: Jest - Asynchronous Tests
 - [ ] 1.4: Project - Shopping Cart
 
-##### Session 2: Introduction to React :closed_book:
+##### Section 2: Introduction to React :closed_book:
 
 - [ ] 2.1: 'Hello, world!' on React!
 - [ ] 2.2: React Components
 - [ ] 2.3: Project - Solar System
 
-##### Session 3: Components with State, Events and Forms with React :closed_book:
+##### Section 3: Components with State, Events and Forms with React :closed_book:
 
 - [ ] 3.1: Components with states and events
 - [ ] 3.2: Forms on React
 - [ ] 3.3: Project - Tryunfo
 
-##### Session 4: Components Life Cycle and React Router :closed_book:
+##### Section 4: Components Life Cycle and React Router :closed_book:
 
 - [ ] 4.1: Components Life Cycle on React
 - [ ] 4.2: React Router
 - [ ] 4.3: Project - TrybeTunes
 
-##### Session 5: Agile Methodologies :closed_book:
+##### Section 5: Agile Methodologies :closed_book:
 
 - [ ] 5.1: Agile Methodologies
 - [ ] 5.2: Project - Frontend Online Store
 
-##### Session 6: Automated Tests with React Testing Library :closed_book:
+##### Section 6: Automated Tests with React Testing Library :closed_book:
 
 - [ ] 6.1: RTL - First steps
 - [ ] 6.2: RTL - Mocks and Inputs
 - [ ] 6.3: RTL - Testing React Router
 - [ ] 6.4: Project - Tests on React
 
-##### Session 7: State Management with Redux :closed_book:
+##### Section 7: State Management with Redux :closed_book:
 
 - [ ] 7.1: Introduction to Redux
 - [ ] 7.2: Using React with Redux 
@@ -136,31 +137,31 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 7.5: Tests on React-Redux
 - [ ] 7.6: Project - Trybe Wallet
 
-##### Session 8: Project Trivia Game :closed_book:
+##### Section 8: Project Trivia Game :closed_book:
 
 - [ ] 8.1: Project Trivia Game
 
-##### Session 9: React Hooks & Context API :closed_book:
+##### Section 9: React Hooks & Context API :closed_book:
 
 - [ ] 9.1: React's Context API
 - [ ] 9.2: React Hooks - useState and useContext
 - [ ] 9.3: React Hooks - useEffect and customized Hooks
 - [ ] 9.4: Project - StarWars Datatable with Context API and Hooks
 
-##### Session 10: Project - Recipes App :closed_book:
+##### Section 10: Project - Recipes App :closed_book:
 
 - [ ] 10.1: Project - Recipes App
 
  ## Back-end Development :closed_book:
 
-##### Session 1: Utilizing Containers :closed_book:
+##### Section 1: Utilizing Containers :closed_book:
 
 - [ ] 1.1: Utilizing Containers - Docker
 - [ ] 1.2: Handling Images in Docker
 - [ ] 1.3: Orchestrating Containers with Docker Compose
 - [ ] 1.4: Project - Docker Todo-List
 
-##### Session 2: Introduction to SQL :closed_book:
+##### Section 2: Introduction to SQL :closed_book:
 
 - [ ] 2.1: Database SQL
 - [ ] 2.2: Finding data in a database
@@ -168,14 +169,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 2.4: Handling tables
 - [ ] 2.5: Project - All For One
 
-##### Session 3: SQL Functions, Joins and Subqueries :closed_book:
+##### Section 3: SQL Functions, Joins and Subqueries :closed_book:
 
 - [ ] 3.1: Most used SQL Functions
 - [ ] 3.2: Simplifying JOINs and UNIONs
 - [ ] 3.3: Stored Routines & Subqueries
 - [ ] 3.4: Project - One for All
 
-##### Session 4: Introduction to web development with Node.js :closed_book:
+##### Section 4: Introduction to web development with Node.js :closed_book:
 
 - [ ] 4.1: Node.js: Asynchronous Runtime
 - [ ] 4.2: Node.js: API REST with Express
@@ -184,14 +185,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 4.5: Node.js: Express & MySQL
 - [ ] 4.6: Project - Talker Manager
 
-##### Session 5: Software Architecture: Model, Service and Controller :closed_book:
+##### Section 5: Software Architecture: Model, Service and Controller :closed_book:
 
 - [ ] 5.1: Software Architecture - Model Layer
 - [ ] 5.2: Software Architecture - Service Layer
 - [ ] 5.3: Software Architecture - Controller Layer
 - [ ] 5.4: Project - Store Manager
 
-##### Session 6: Node.js: ORM and Authentication :closed_book:
+##### Section 6: Node.js: ORM and Authentication :closed_book:
 
 - [ ] 6.1: ORM - Application Interface with database
 - [ ] 6.2: ORM - Associations 1:1 and 1:N
@@ -199,20 +200,20 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 6.4: JWT - (JSON Web Token)
 - [ ] 6.5: Project - Blog API
 
-##### Session 7: Deployment :closed_book:
+##### Section 7: Deployment :closed_book:
 
 - [ ] 7.1: Infrastructure - Deploy with Heroku
 - [ ] 7.2: Deploy Docker & Heroku
 - [ ] 7.3: Project - Stranger Things
 
-##### Session 8: TypeScript :closed_book:
+##### Section 8: TypeScript :closed_book:
 
 - [ ] 8.1: Introdution to TypeScript
 - [ ] 8.2: Static Typing and Generics
 - [ ] 8.3: Express with TypeScript
 - [ ] 8.4: Project - Trybesmith
 
-##### Session 9: Object-Oriented Programming (POO) and SOLID :closed_book:
+##### Section 9: Object-Oriented Programming (POO) and SOLID :closed_book:
 
 - [ ] 9.1: Introduction to Object Orientation
 - [ ] 9.2: Inheritance and Interfaces
@@ -221,11 +222,11 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 9.5: SOLID - L and I Principles
 - [ ] 9.6: Project - Trybers and Dragons
 
-##### Session 10: Project - Trybe Football Club :closed_book:
+##### Section 10: Project - Trybe Football Club :closed_book:
 
 - [ ] 10.1: Project - TFC - Trybe Football Club
 
-##### Session 11: Introduction to MongoDB :closed_book:
+##### Section 11: Introduction to MongoDB :closed_book:
 
 - [ ] 11.1: MongoDB - Introduction
 - [ ] 11.2: Filter Operators
@@ -234,13 +235,13 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 11.2: Complex Updates - Arrays
 - [ ] 11.3: Project - Commerce
 
-##### Session 12: MongoDB with Node.js and POO :closed_book:
+##### Section 12: MongoDB with Node.js and POO :closed_book:
 
 - [ ] 12.1: Mongoose and MSC architecture (Model Layer)
 - [ ] 12.2: Mongoose and MSC architecture (Service and Controller Layer)
 - [ ] 12.3: Project - Car Shop
 
-##### Session 13: Project - Delivery APP :closed_book:
+##### Section 13: Project - Delivery APP :closed_book:
 
 - [ ] 13.1: Project - Delivery APP
 
@@ -251,35 +252,35 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ## Computer Science :closed_book:
 
-##### Session 1: Introduction to Python :closed_book:
+##### Section 1: Introduction to Python :closed_book:
 
 - [ ] 1.1: Learning Python
 - [ ] 1.2: Data Input and Output
 - [ ] 1.3: Tests
 - [ ] 1.4: Project - Job Insights
 
-##### Session 2: Project Patterns :closed_book:
+##### Section 2: Project Patterns :closed_book:
 
 - [ ] 2.1: POO in Python
 - [ ] 2.2: Iterator, Adapter, Strategy - Patterns
 - [ ] 2.3: Decorator, Observer, Factory - Patterns
 - [ ] 2.4: Project - Inventory Reports
 
-##### Session 3: Network and Data Scrapping :closed_book:
+##### Section 3: Network and Data Scrapping :closed_book:
 
 - [ ] 3.1: Network Architecture
 - [ ] 3.2: Data Scrapping
 - [ ] 3.3: Other Tools - Data Scrapping
 - [ ] 3.4: Project - Tech News
 
-##### Session 4: Algorithms :closed_book:
+##### Section 4: Algorithms :closed_book:
 
 - [ ] 4.1: Algorithms Complexity
 - [ ] 4.2: Recursion and Problem Solving Strategies
 - [ ] 4.3: Sort and search algorithms
 - [ ] 4.4: Project - Algorithms
 
-##### Session 5: Arrays, Lists, Queues and Stacks :closed_book:
+##### Section 5: Arrays, Lists, Queues and Stacks :closed_book:
 
 - [ ] 5.1: Computer Architecture
 - [ ] 5.2: Arrays
@@ -287,7 +288,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [ ] 5.4: Stacks and Queues
 - [ ] 5.5: Project - TING - Trybe is Not Google
 
-##### Session 6: Data Structure II: Hashmaps and Sets :closed_book:
+##### Section 6: Data Structure II: Hashmaps and Sets :closed_book:
 
 - [ ] 6.1: Hashmap and Dict
 - [ ] 6.2: Set

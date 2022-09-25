@@ -1,13 +1,13 @@
-const numberA = 3;
-const numberB = 14;
-const numberC = 22;
+const numberA = 14;
+const numberB = 7;
+const numberC = 9;
 
-//Criação de uma variável isOdd("é ímpar") com valor "false" para que utilizando somente um if pedido pelo exercício consigamos retornar se algum dos números é ou não ímpar.
+//Criação de uma variável isEven ("é par") com valor "false" para que utilizando somente um if pedido pelo exercício consigamos retornar se algum dos números é ou não par.
 
-let isOdd = false;
+let isEven = false;
 
-if (numberA % 2 !== 0 || numberB % 2 !== 0 || numberC % 2 !== 0) {
-    isOdd = true;
+if (numberA % 2 === 0 || numberB % 2 === 0 || numberC % 2 === 0) {
+    isEven = true;
 };
 
-console.log (isOdd);
+console.log (isEven);

@@ -1,3 +1,5 @@
+## Exercise - 01
+
 - The factorial is the multiplication of a natural number by its predecessors, except zero. For example:
 
 ```

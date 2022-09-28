@@ -44,7 +44,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.4: Semantic HTML
 - [X] 3.5: Project - Lessons Learned
 
-##### Section 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
+##### Section 4: Introduction to JavaScript and Programming Logic :heavy_check_mark:
 
 - [X] 4.1: JavaScript - First steps
 - [X] 4.2: JavaScript - Array and for loops

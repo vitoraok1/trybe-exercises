@@ -6,3 +6,9 @@ section[0].style.background = '#ff9f84';
 
 const section2 = document.getElementsByClassName('no-emergency-tasks');
 section2[0].style.background = '#f9db5e';
+
+const subTitles = document.querySelectorAll('h3');
+subTitles[0].style.background = '#a500f3';
+subTitles[1].style.background = '#a500f3';
+subTitles[2].style.background = 'black';
+subTitles[3].style.background = 'black';

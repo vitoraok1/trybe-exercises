@@ -12,3 +12,6 @@ subTitles[0].style.background = '#a500f3';
 subTitles[1].style.background = '#a500f3';
 subTitles[2].style.background = 'black';
 subTitles[3].style.background = 'black';
+
+const footer = document.getElementById('footer-container');
+footer.style.background = '#003533';

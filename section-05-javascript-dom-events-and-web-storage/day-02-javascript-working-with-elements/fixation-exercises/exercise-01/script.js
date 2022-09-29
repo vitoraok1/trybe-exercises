@@ -11,3 +11,5 @@ const primeiroFilho = pai.firstElementChild;
 const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
 
 const text = elementoOndeVoceEsta.nextSibling;
+
+const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;

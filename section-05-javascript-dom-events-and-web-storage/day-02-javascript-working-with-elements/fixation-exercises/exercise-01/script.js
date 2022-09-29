@@ -2,3 +2,6 @@ const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
 
 const pai = elementoOndeVoceEsta.parentElement;
 pai.style.color = 'orange';
+
+const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+primeiroFilhoDoFilho.innerText = 'Texto teste';

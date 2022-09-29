@@ -7,3 +7,5 @@ const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
 primeiroFilhoDoFilho.innerText = 'Texto teste';
 
 const primeiroFilho = pai.firstElementChild;
+
+const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;

@@ -5,3 +5,5 @@ pai.style.color = 'orange';
 
 const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
 primeiroFilhoDoFilho.innerText = 'Texto teste';
+
+const primeiroFilho = pai.firstElementChild;

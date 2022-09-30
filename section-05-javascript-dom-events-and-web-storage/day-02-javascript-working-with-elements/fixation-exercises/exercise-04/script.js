@@ -67,3 +67,10 @@ for (let index = 1; index <= 3; index += 1) {
 
 const titleTag = document.getElementsByTagName('h1')[0];
 titleTag.className = 'title'
+
+// Add the `description` class to the 3 created `h3` tags;
+
+const descriptionTags = document.getElementsByTagName('h3');
+for (let index = 0; index < 3; index += 1) {
+    descriptionTags[index].className = 'description';
+}

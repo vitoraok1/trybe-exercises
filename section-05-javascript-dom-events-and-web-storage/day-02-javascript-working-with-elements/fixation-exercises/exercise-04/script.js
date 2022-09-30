@@ -15,3 +15,9 @@ document.body.appendChild(mainTag);
 const sectionTag = document.createElement('section');
 sectionTag.className = 'center-content';
 mainTag.appendChild(sectionTag);
+
+// Add `p` tag as child of `section` created in step 3 and put some text;
+
+const pTag = document.createElement('p');
+pTag.innerHTML = 'Fixando o aprendizado';
+sectionTag.appendChild(pTag);

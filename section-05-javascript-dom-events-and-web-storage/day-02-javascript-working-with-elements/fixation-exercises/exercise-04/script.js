@@ -79,3 +79,8 @@ for (let index = 0; index < 3; index += 1) {
 
 const leftSectionClear = document.getElementsByClassName('left-content')[0];
 mainTag.removeChild(leftSectionClear);
+
+// Center the `section` created in step 6 (the one with the `right-content` class). Tip: to center, just set the `margin-right: auto` da `section`;
+
+const rightSectionAllign = document.getElementsByClassName('right-content')[0];
+rightSectionAllign.style.marginRight = 'auto';

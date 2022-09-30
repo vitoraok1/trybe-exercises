@@ -100,7 +100,7 @@ Now that you've created a lot, let's make some changes and removals:
 
 - Remove the `section` created in step 5 (the one with the `left-content` class). Use the .`removeChild()` function;
 
-- Remove the `section` created in step 5 (the one with the `right-content` class). Use the .`removeChild()` function;
+- Center the `section` created in step 6 (the one with the `right-content` class). Tip: to center, just set the `margin-right: auto` da `section`;
 
 - Change the background color of the parent element of the `section` created in step 3 (the one with the `center-content` class) to green;
 

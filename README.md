@@ -52,7 +52,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 4.4: JavaScript - Objects and functions
 - [X] 4.5: Project - Playground Functions
 
-##### Section 5: Introdução - JavaScript - DOM, Events and Web Storage :closed_book:
+##### Section 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
 
 - [X] 5.1: JavaScript - DOM and selectors
 - [ ] 5.2: JavaScript - Working with elements

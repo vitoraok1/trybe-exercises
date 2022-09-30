@@ -54,19 +54,44 @@
       5. Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
       6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
       */
-     const text = document.getElementsByTagName('p');
-     text[1].innerText = 'Me vejo um dev pronto para o mercado!';
-     text[0].innerText = 'Meta a longo prazo:';
-     text[0].style.textTransform = 'uppercase';
+   
+    function changeText() {
+      let text = document.getElementsByTagName('p')[1];
+      text.innerText = 'Me vejo um dev pronto para o mercado!';
+    }
+    changeText();
 
-     const block1 = document.getElementsByClassName('main-content');
-     block1[0].style.background = 'rgb(76,164,109)';
-    
-     const block2 = document.getElementsByClassName('center-content');
-     block2[0].style.background = 'white';
-    
-     const allParag = document.getElementsByTagName('p');
-     console.log(allParag);
+    function changeColor() {
+      let block1 = document.getElementsByClassName('main-content')[0];
+      block1.style.background = 'rgb(76,164,109)';
+    }
+    changeColor();
+
+    function changeColor2() {
+      let block2 = document.getElementsByClassName('center-content')[0];
+      block2.style.background = 'white';
+    }
+    changeColor2();
+
+    function changeTextH1() {
+      let textH1 = document.getElementsByTagName('p')[0];
+      textH1.innerText = 'Meta a longo prazo:';
+    }
+    changeTextH1();
+
+    function upperCaseP() {
+      let paragraph = document.getElementsByTagName('p')[0];
+      paragraph.style.textTransform = 'uppercase';
+    }
+    upperCaseP();
+
+    function showPTags() {
+      let pTags = document.getElementsByTagName('p');
+      for (let index = 0; index < pTags.length; index += 1) {
+        console.log(pTags[index].innerText);
+      }
+    }
+    showPTags();
     </script>
   </body>
 </html>

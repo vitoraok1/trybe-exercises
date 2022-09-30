@@ -1,0 +1,23 @@
+##  Exercise 02
+
+`index.html`
+
+```
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+```
+
+- Create a sibling for`elementoOndeVoceEsta`.
+- Create a son for `elementoOndeVoceEsta`.
+- Create a son for `primeiroFilhoDoFilho`.
+- From this created child, access `terceiroFilho`.

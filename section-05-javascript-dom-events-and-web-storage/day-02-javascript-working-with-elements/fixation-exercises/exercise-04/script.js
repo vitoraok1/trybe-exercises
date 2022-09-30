@@ -21,3 +21,16 @@ mainTag.appendChild(sectionTag);
 const pTag = document.createElement('p');
 pTag.innerHTML = 'Fixando o aprendizado';
 sectionTag.appendChild(pTag);
+
+// Add the `section` tag with the `left-content` class as a child of the `main` tag created in step 2;
+
+const leftSection = document.createElement('section');
+leftSection.className = 'left-content';
+mainTag.appendChild(leftSection);
+
+// Add the `section` tag with the `right-content` class as a child of the `main` tag created in step 2;
+
+const rightSection = document.createElement('section');
+rightSection.className = 'right-content';
+mainTag.appendChild(rightSection);
+

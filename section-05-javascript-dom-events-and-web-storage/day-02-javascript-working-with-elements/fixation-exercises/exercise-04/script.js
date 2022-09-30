@@ -41,3 +41,16 @@ srcImg.className = 'small-image';
 srcImg.src = 'https://picsum.photos/200';
 leftSection.appendChild(srcImg);
 
+// Add an unordered list with the values ​​from 1 to 10 in full, i.e., `um`, `dois`, `três`, … as list values. This list must be a child of the `section` created in step 6;
+
+const unorderedList = document.createElement('ul');
+rightSection.appendChild(unorderedList);
+
+const numbersList = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+'Sete', 'Oito', 'Nove', 'Dez'];
+
+for (let index = 0; index < numbersList.length; index += 1) {
+    const elementsLi = document.createElement('li');
+    elementsLi.innerHTML = numbersList[index];
+    unorderedList.appendChild(elementsLi);
+}

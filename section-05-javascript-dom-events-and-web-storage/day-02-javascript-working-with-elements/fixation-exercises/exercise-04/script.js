@@ -89,3 +89,9 @@ rightSectionAllign.style.marginRight = 'auto';
 
 const changeFatherColor = document.getElementsByClassName('main-content')[0];
 changeFatherColor.style.backgroundColor = 'green';
+
+// Remove the `last two elements` from the list created in step 8.
+
+const removeUlItens = document.getElementsByTagName('ul')[0];
+removeUlItens.lastChild.remove();
+removeUlItens.lastChild.remove();

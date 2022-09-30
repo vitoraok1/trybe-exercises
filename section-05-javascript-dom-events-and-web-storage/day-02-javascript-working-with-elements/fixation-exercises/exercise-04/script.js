@@ -62,3 +62,8 @@ for (let index = 1; index <= 3; index += 1) {
     h3Tags.innerHTML = 'Item ' + index;
     mainTag.appendChild(h3Tags);
 }
+
+// - Add the `title` class to the created `h1` tag;
+
+const titleTag = document.getElementsByTagName('h1')[0];
+titleTag.className = 'title'

@@ -54,3 +54,11 @@ for (let index = 0; index < numbersList.length; index += 1) {
     elementsLi.innerHTML = numbersList[index];
     unorderedList.appendChild(elementsLi);
 }
+
+// Add 3 `h3` tags, all children of the `main` created in step 2.
+
+for (let index = 1; index <= 3; index += 1) {
+    const h3Tags = document.createElement('h3');
+    h3Tags.innerHTML = 'Item ' + index;
+    mainTag.appendChild(h3Tags);
+}

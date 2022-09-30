@@ -34,3 +34,10 @@ const rightSection = document.createElement('section');
 rightSection.className = 'right-content';
 mainTag.appendChild(rightSection);
 
+// Add an image with `src` set to `https://picsum.photos/200` and class `small-image`. This element must be a child of the `section` created in step 5;
+
+const srcImg = document.createElement('img');
+srcImg.className = 'small-image';
+srcImg.src = 'https://picsum.photos/200';
+leftSection.appendChild(srcImg);
+

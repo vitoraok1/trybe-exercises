@@ -84,3 +84,8 @@ mainTag.removeChild(leftSectionClear);
 
 const rightSectionAllign = document.getElementsByClassName('right-content')[0];
 rightSectionAllign.style.marginRight = 'auto';
+
+// Change the background color of the parent element of the `section` created in step 3 (the one with the `center-content` class) to green;
+
+const changeFatherColor = document.getElementsByClassName('main-content')[0];
+changeFatherColor.style.backgroundColor = 'green';

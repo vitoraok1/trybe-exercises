@@ -63,7 +63,7 @@ function changeButtonColor() {
   getHolidayButton.addEventListener('click',function(){
     for (let index = 0; index < holidays.length; index += 1) {
       if (holidays[index].style.backgroundColor === newColor) {
-        holidays[index].style.backgroundColor = buttonColor
+        holidays[index].style.backgroundColor = buttonColor;
       } else {
         holidays[index].style.backgroundColor = newColor;
       }
@@ -83,3 +83,26 @@ function createFridayButton(buttonName) {
   buttonsContainer.appendChild(fridayButton);
 }
 createFridayButton('Sexta-feira');
+
+// Part 5
+
+function changeButtonText() {
+  const fridays = document.getElementsByClassName('friday');
+  const getFridayButton = document.getElementById('btn-friday');
+  let buttonTextStyle = 'normal';
+  let newTextStyle = 'bolder';
+
+  getFridayButton.addEventListener('click',function(){
+    for (let index = 0; index < fridays.length; index += 1) {
+      if (fridays[index].style.fontWeight === newTextStyle) {
+        fridays[index].style.fontWeight = buttonTextStyle;
+      } else {
+        fridays[index].style.fontWeight = newTextStyle;
+      }
+    }
+  })
+
+}
+changeButtonText();
+
+// Part 6

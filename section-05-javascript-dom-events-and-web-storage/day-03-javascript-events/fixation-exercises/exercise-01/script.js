@@ -86,24 +86,23 @@ createFridayButton('Sexta-feira');
 
 // Part 5
 
-function changeButtonText() {
+function changeButtonText(fridayArray) {
   const fridays = document.getElementsByClassName('friday');
   const getFridayButton = document.getElementById('btn-friday');
-  let buttonTextStyle = 'normal';
-  let newTextStyle = 'bolder';
+  let newText = 'SEXTOUU!!';
 
   getFridayButton.addEventListener('click',function(){
     for (let index = 0; index < fridays.length; index += 1) {
-      if (fridays[index].style.fontWeight === newTextStyle) {
-        fridays[index].style.fontWeight = buttonTextStyle;
+      if (fridays[index].innerHTML == newText) {
+        fridays[index].innerHTML = fridayArray[index];
       } else {
-        fridays[index].style.fontWeight = newTextStyle;
+        fridays[index].innerHTML = newText;
       }
     }
   })
-
 }
-changeButtonText();
+let allFridays = [ 4, 11, 18, 25 ];
+changeButtonText(allFridays);
 
 // Part 6
 

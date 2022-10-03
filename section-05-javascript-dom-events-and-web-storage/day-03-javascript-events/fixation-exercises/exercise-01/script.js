@@ -107,7 +107,7 @@ changeButtonText();
 
 // Part 6
 
-function onEffect () {
+function onEffect() {
   const getAllLi = document.querySelector('#days');
 
   getAllLi.addEventListener('mouseover', function(event){
@@ -126,3 +126,16 @@ onEffect();
 hideEffect();
 
 // Part 7
+
+function addTask(task) {
+  const myTasks = document.getElementsByClassName('my-tasks')[0];
+  const taskName = document.createElement('span');
+
+  taskName.innerHTML = task;
+  myTasks.appendChild(taskName);
+
+
+}
+addTask('cozinhar');
+
+// Part 8

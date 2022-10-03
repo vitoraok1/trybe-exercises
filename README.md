@@ -52,17 +52,13 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 4.4: JavaScript - Objects and functions
 - [X] 4.5: Project - Playground Functions
 
-##### Section 5: Introdução - JavaScript - DOM, Events and Web Storage :closed_book:
+##### Section 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
 
-- [ ] 5.1: JavaScript - DOM and selectors
-- [ ] 5.2: JavaScript - Working with elements
-- [ ] 5.3: JavaScript - Events
-- [ ] 5.4: JavaScript - Web Storage
+- [X] 5.1: JavaScript - DOM and selectors
+- [X] 5.2: JavaScript - Working with elements
+- [X] 5.3: JavaScript - Events
+- [X] 5.4: JavaScript - Web Storage
 - [ ] 5.5: Project - Art with Pixels
-- [ ] 5.6: (Bonus) Project - Task List
-- [ ] 5.6: (Bonus) Project - Meme Generator
-- [ ] 5.6: (Bonus) Project - Gess the Color
-- [ ] 5.6: (Bonus) Project - Mysterious Letter
 
 ##### Section 6: HTML & CSS - Forms, Flexbox and Responsive :closed_book:
 

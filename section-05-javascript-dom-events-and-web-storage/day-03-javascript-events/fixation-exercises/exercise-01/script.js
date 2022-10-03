@@ -187,3 +187,36 @@ function setTaskColor() {
   });
 }
 setTaskColor();
+
+// Part 11 (Bonus)
+
+function addCompromise() {
+  const taskInput = document.getElementById('task-input');
+  const addButton = document.getElementById('btn-add');
+  const taskList = document.getElementsByClassName('task-list')[0];
+
+  addButton.addEventListener('click', function(){
+    if (taskInput.value.length > 0) {
+      let addLi = document.createElement('li');
+
+      addLi.innerHTML = taskInput.value;
+      taskList.appendChild(addLi);
+      taskInput.value = '';
+
+    } else {
+      alert('Digite 1 compromisso!');
+    }
+  });
+
+  taskInput.addEventListener('keyup', function(event){
+    if (event.key === 'Enter' && taskInput.value.length > 0) {
+      let addLi = document.createElement('li');
+
+      addLi.innerHTML = taskInput.value;
+      taskList.appendChild(addLi);
+      taskInput.value = '';
+
+    }
+  });
+}
+addCompromise();

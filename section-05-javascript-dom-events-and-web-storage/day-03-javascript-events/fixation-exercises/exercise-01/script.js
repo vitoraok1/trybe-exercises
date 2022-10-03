@@ -74,3 +74,12 @@ function changeButtonColor() {
 changeButtonColor();
 
 // Part 4
+
+function createFridayButton(buttonName) {
+  const buttonsContainer = document.getElementsByClassName('buttons-container')[0];
+  let fridayButton = document.createElement('button');
+  fridayButton.id = 'btn-friday';
+  fridayButton.innerHTML = buttonName;
+  buttonsContainer.appendChild(fridayButton);
+}
+createFridayButton('Sexta-feira');

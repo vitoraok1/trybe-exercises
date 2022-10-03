@@ -149,3 +149,22 @@ function addColorLegend(color) {
 addColorLegend('orange');
 
 // Part 9
+
+function selectTask() {
+  const selectedTask = document.getElementsByClassName('task selected');
+  const myTasks = document.getElementsByClassName('my-tasks')[0];
+
+  myTasks.addEventListener('click', function(event){
+    if (selectedTask === 0) {
+      event.target.className = 'task selected'
+    } else {
+      event.target.className = 'task';
+    }
+
+  });
+
+}
+selectTask();
+
+// Part 10
+

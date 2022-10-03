@@ -138,3 +138,14 @@ function addTask(task) {
 addTask('cozinhar');
 
 // Part 8
+
+function addColorLegend(color) {
+  const myTasks = document.getElementsByClassName('my-tasks')[0];
+  const taskName = document.createElement('div');
+  taskName.className = 'task';
+  taskName.style.background = color;
+  myTasks.appendChild(taskName);
+}  
+addColorLegend('orange');
+
+// Part 9

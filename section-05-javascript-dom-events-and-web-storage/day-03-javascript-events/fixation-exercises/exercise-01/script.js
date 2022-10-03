@@ -106,3 +106,23 @@ function changeButtonText() {
 changeButtonText();
 
 // Part 6
+
+function onEffect () {
+  const getAllLi = document.querySelector('#days');
+
+  getAllLi.addEventListener('mouseover', function(event){
+    event.target.style.fontSize = '30px';
+  });
+}
+
+function hideEffect () {
+  const getAllLi = document.querySelector('#days');
+
+  getAllLi.addEventListener('mouseout', function(event){
+    event.target.style.fontSize = '20px';
+  });
+}
+onEffect();
+hideEffect();
+
+// Part 7

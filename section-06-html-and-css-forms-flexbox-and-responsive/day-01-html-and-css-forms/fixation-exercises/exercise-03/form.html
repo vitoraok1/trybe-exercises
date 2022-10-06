@@ -15,23 +15,28 @@
         <h1>Formulário TrybeTrip</h1>
     </header>
     <main>
+
         <section>
             <label for="name">Nome Completo:</label>
-            <input type="text" name="complete-name" id="name" placeholder="Digite seu nome" minlength="10" maxlength="40">
+            <input type="text" name="complete-name" id="name" placeholder="Digite seu nome" minlength="10" maxlength="40" required>
         </section>
+
         <br>
+
         <section>
             <label for="mail">E-mail:</label>
-            <input type="email" name="e-mail" id="mail" placeholder="Digite seu e-mail" minlength="10" maxlength="50">
+            <input type="email" name="e-mail" id="mail" placeholder="Digite seu e-mail" minlength="10" maxlength="50" required>
         </section>
+
         <br>
+
         <section>
 
             <label for="">Destino Preferido:</label>
             <br>
 
             <label for="option1">
-                <input type="radio" name="trip-options" id="option1" value="cidade">Cidade
+                <input type="radio" name="trip-options" id="option1" value="cidade" checked>Cidade
             </label>
 
             <label for="option2">
@@ -47,19 +52,34 @@
             </label>
 
         </section>
-        <section>
-            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-            <label for="">
-                <textarea name="why-me" id="textarea" cols="40" rows="10" placeholder="Seja criativo e nos conte por que você merece vencer esse concurso!" maxlength="500"></textarea>
-            </label>
-        </section>
-        <section>
-            <p>Qual a melhor data para realizar sua viagem?</p>
-        </section>
+
         <br>
+
         <section>
-            <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+            <label for="textarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+            <textarea name="why-me" id="textarea" cols="40" rows="10" placeholder="Seja criativo e nos conte por que você merece vencer esse concurso!" maxlength="500"></textarea>
         </section>
+
+        <section>
+            <label for="trip-date">Qual a melhor data para realizar sua viagem?</label><br><br>
+            <input type="date" name="trip-date" id="trip-date">
+        </section>
+
+        <br>
+
+        <section>
+        <label for="newsletter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label><br>
+            <input type="checkbox" name="subscribe-newsletter" id="newsletter">Sim, quero receber as novidades da Trybe!
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <input type="checkbox" name="contract" id="terms" required>
+           <label for="terms">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        </section>
+        
     </main>
 </body>
 <script src="./script.js"></script>

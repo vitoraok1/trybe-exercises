@@ -17,10 +17,12 @@ header {
 main {
     background-color: blanchedalmond;
     margin: 50px auto auto auto;
-    height: 550px;
+    height: 580px;
     width: 50%;
     border-radius: 30px;
     border: 20px solid sandybrown;
     padding: 30px;
     line-height: 20px;
+    font-size: 15px;
+    color: slategray;
 }

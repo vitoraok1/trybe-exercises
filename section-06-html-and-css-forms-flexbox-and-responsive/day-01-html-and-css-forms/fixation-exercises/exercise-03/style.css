@@ -16,8 +16,8 @@ header {
 
 main {
     background-color: blanchedalmond;
-    margin: 50px auto auto auto;
-    height: 580px;
+    margin: 30px auto auto auto;
+    height: 630px;
     width: 50%;
     border-radius: 30px;
     border: 20px solid sandybrown;
@@ -25,4 +25,8 @@ main {
     line-height: 20px;
     font-size: 15px;
     color: slategray;
+}
+
+button {
+    padding: 8px;
 }

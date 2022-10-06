@@ -17,9 +17,10 @@ header {
 main {
     background-color: blanchedalmond;
     margin: 50px auto auto auto;
-    height: 500px;
+    height: 550px;
     width: 50%;
     border-radius: 30px;
     border: 20px solid sandybrown;
     padding: 30px;
+    line-height: 20px;
 }

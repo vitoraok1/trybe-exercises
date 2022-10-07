@@ -22,9 +22,11 @@ main {
     border-radius: 30px;
     border: 20px solid sandybrown;
     padding: 30px;
-    line-height: 20px;
-    font-size: 15px;
+    line-height: 16px;
+    font-size: 14px;
     color: slategray;
+    display: flex;
+    flex-direction: column;
 }
 
 button {

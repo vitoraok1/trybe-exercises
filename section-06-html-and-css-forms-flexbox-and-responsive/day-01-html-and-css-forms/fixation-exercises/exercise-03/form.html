@@ -15,77 +15,77 @@
         <h1>Formulário TrybeTrip</h1>
     </header>
     <main>
+        <form>
+            <section>
+                <label for="name">Nome Completo:</label>
+                <input type="text" name="complete-name" id="name" placeholder="Digite seu nome" minlength="10" maxlength="40" required>
+            </section>
 
-        <section>
-            <label for="name">Nome Completo:</label>
-            <input type="text" name="complete-name" id="name" placeholder="Digite seu nome" minlength="10" maxlength="40" required>
-        </section>
-
-        <br>
-
-        <section>
-            <label for="mail">E-mail:</label>
-            <input type="email" name="e-mail" id="mail" placeholder="Digite seu e-mail" minlength="10" maxlength="50" required>
-        </section>
-
-        <br>
-
-        <section>
-
-            <label for="">Destino Preferido:</label>
             <br>
 
-            <label for="option1">
-                <input type="radio" name="trip-options" id="option1" value="cidade" checked>Cidade
-            </label>
+            <section>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="e-mail" id="mail" placeholder="Digite seu e-mail" minlength="10" maxlength="50" required>
+            </section>
 
-            <label for="option2">
-                <input type="radio" name="trip-options" id="option2" value="campo">Campo
-            </label>
+            <br>
 
-            <label for="option3">
-                <input type="radio" name="trip-options" id="option3" value="praia">Praia
-            </label>
+            <section>
 
-            <label for="option4">
-                <input type="radio" name="trip-options" id="option4" value="Montanhas">Montanhas
-            </label>
+                <label for="">Destino Preferido:</label>
+                <br><br>
 
-        </section>
+                <label for="option1">
+                    <input type="radio" name="trip-options" id="option1" value="cidade" checked>Cidade
+                </label>
 
-        <br>
+                <label for="option2">
+                    <input type="radio" name="trip-options" id="option2" value="campo">Campo
+                </label>
 
-        <section>
-            <label for="textarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
-            <textarea name="why-me" id="textarea" cols="40" rows="10" placeholder="Seja criativo e nos conte por que você merece vencer esse concurso!" maxlength="500"></textarea>
-        </section>
+                <label for="option3">
+                    <input type="radio" name="trip-options" id="option3" value="praia">Praia
+                </label>
 
-        <section>
-            <label for="trip-date">Qual a melhor data para realizar sua viagem?</label><br><br>
-            <input type="date" name="trip-date" id="trip-date">
-        </section>
+                <label for="option4">
+                    <input type="radio" name="trip-options" id="option4" value="Montanhas">Montanhas
+                </label>
 
-        <br>
+            </section>
 
-        <section>
-        <label for="newsletter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label><br>
-            <input type="checkbox" name="subscribe-newsletter" id="newsletter">Sim, quero receber as novidades da Trybe!
-        </section>
+            <br>
 
-        <br>
-        <br>
+            <section id="text-area">
+                <label for="textarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label><br><br>
+                <textarea name="why-me" id="textarea" cols="40" rows="10" placeholder="Seja criativo e nos conte por que você merece vencer esse concurso!" maxlength="500"></textarea>
+            </section>
+            <br>
+            <section>
+                <label for="trip-date">Qual a melhor data para realizar sua viagem?</label><br><br>
+                <input type="date" name="trip-date" id="trip-date">
+            </section>
 
-        <section>
-           <input type="checkbox" name="contract" id="terms" required>
-           <label for="terms">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
-        </section>
+            <br>
 
-        <br>
+            <section>
+            <label for="newsletter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label><br><br>
+                <input type="checkbox" name="subscribe-newsletter" id="newsletter">Sim, quero receber as novidades da Trybe!
+            </section>
 
-        <section>
-            <button type="submit" id="send-button">Enviar formulário</button>
-        </section>
+            <br>
+            <br>
 
+            <section>
+            <input type="checkbox" name="contract" id="terms" required>
+            <label for="terms">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+            </section>
+
+            <br>
+
+            <section>
+                <button type="submit" id="send-button">Enviar formulário</button>
+            </section>
+        </form>
     </main>
 </body>
 <script src="./script.js"></script>

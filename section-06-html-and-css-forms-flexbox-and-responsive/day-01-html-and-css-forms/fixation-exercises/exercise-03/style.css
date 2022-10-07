@@ -29,6 +29,10 @@ main {
     flex-direction: column;
 }
 
-button {
+.button-class {
     padding: 8px;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 10px;
+    display: inline;
 }

@@ -3,6 +3,8 @@ window.onload = function () {
     clearButton.addEventListener('click', clearForm);
     const sendButton = document.getElementById('send-button');
     sendButton.addEventListener('click', keepTexts);
+    const terms = document.getElementById('terms');
+    terms.addEventListener('change', enableSubmit);
 };
 
 //Função para manter os dados preenchidos ao enviar o formulário
@@ -24,3 +26,13 @@ for (let index = 0; index < allInputs.length; index += 1) {
     }
 textArea.value = '';
 }
+
+// Função para deixar como obrigatório que o usuário aceite os termos antes de enviar o formulário (outra opção seria fazer direto no html utilizando a propriedade required no input button)
+
+function enableSubmit() {
+    const sendButton = document.getElementById('send-button');
+    const terms = document.getElementById('terms');
+    sendButton.disabled = !terms.checked;
+  }
+
+//

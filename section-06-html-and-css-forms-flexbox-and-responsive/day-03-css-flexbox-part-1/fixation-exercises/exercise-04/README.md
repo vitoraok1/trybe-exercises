@@ -1,0 +1,52 @@
+# Exercise 04
+
+## Properties: justify-content, align-items and align-content
+
+- Using the code below, test the possibilities (`center`, `flex-start`, `flex-end`, `stretch`, `space-around` and `space-between`) for the `align-content` property.
+
+`ìndex.html`
+
+```
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Align Content</title>
+    <style>
+      .box {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .box-container {
+        /* ADICIONE AQUI SEUS TESTES */
+        background-color: #0fa36b;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </body>
+</html>
+```

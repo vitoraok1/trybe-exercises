@@ -12,5 +12,11 @@
 .box-container {
     background-color: #0fa36b;
     display: flex;
-    /* ADICIONE AQUI SEUS TESTES */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    /* flex-flow: column-reverse; */
+    /* flex-flow: row-reverse; */
+    flex-flow: wrap-reverse;
 }

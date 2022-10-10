@@ -25,3 +25,9 @@
     justify-content: space-around;
     align-items: center;
   }
+
+  .text-section {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }

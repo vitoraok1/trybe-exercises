@@ -18,6 +18,10 @@
     margin-left: 10px;
   }
 
+  .social-img:hover {
+    width: 30px;
+  }
+
   .header {
     background-color: #323433;
     color: white;
@@ -51,8 +55,10 @@
   }
 
   h4 {
-    text-align: center;
     color: #6c757d;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
   }
 
   .blocks {
@@ -64,6 +70,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .blocks:hover {
+    background-color: #ced4da;
   }
 
   hr {

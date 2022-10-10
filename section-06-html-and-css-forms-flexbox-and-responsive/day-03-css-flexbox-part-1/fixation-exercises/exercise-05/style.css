@@ -31,3 +31,38 @@
     justify-content: center;
     margin: 10px;
   }
+
+  .img-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto 13px auto;
+    width: 50%;
+  }
+
+  .first-images {
+    display: flex;
+    margin: 10px;
+  }
+
+  .other-images {
+    display: flex;
+    margin: 10px;
+  }
+
+  h4 {
+    text-align: center;
+    color: #6c757d;
+  }
+
+  .blocks {
+    background-color: #dee2e6;
+    padding: 20px;
+    margin: 0 10px 15px 0;
+    border-radius: 20px;
+    box-shadow: 3px 3px #ced4da;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+

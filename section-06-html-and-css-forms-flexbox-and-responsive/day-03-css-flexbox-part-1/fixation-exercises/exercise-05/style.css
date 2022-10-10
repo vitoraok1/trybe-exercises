@@ -66,3 +66,14 @@
     flex-direction: column;
   }
 
+  hr {
+    margin-bottom: 20px;
+    width: 25%;
+    margin: auto;
+  }
+
+  footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }

@@ -2,6 +2,26 @@
  * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * apply a natural box layout model to all elements, but allowing components to change
  */
+
+ @media screen and (min-width: 768px) {
+    body {
+        background-color: gainsboro;
+        font-size: 1.5em !important;
+        margin: 2% 5% !important;
+    }
+
+    figure {
+        width: 45%;
+        margin-right: 3% !important; 
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+ }
+
  html {
     box-sizing: border-box;
   }

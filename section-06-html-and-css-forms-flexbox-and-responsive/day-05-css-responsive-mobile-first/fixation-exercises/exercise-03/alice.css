@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 1.2em;
+        margin: 0 3%;
+    }
+
+    .container ul li {
+        margin-bottom: 15px;
+    }
+
+    .aside-one ul li {
+        margin-bottom: 20px;
+    }
+
+    p {
+        line-height: 30px;
+    }
+
+    .aside-two {
+        margin-bottom: 50px;
+    }
+  }

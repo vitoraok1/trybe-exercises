@@ -17,7 +17,7 @@ ul {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 1.2em;
+        font-size: 1.3em;
         margin: 0 3%;
     }
 
@@ -40,7 +40,7 @@ ul {
 
   @media screen and (min-width: 600px) {
     body {
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin: 0 4%;
     }
 
@@ -71,5 +71,42 @@ ul {
 
     .aside-two {
         margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    body {
+        font-size: 1.1em;
+        margin: 0 5%;
+    }
+
+    .container nav ul {
+        display: flex;
+    }
+
+    .container nav ul li {
+        margin-bottom: 18px;
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    .aside-one ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aside-one ul li {
+        margin-bottom: 22px;
+        width: 20%;
+        margin-right: 20px;
+    }
+
+    p {
+        line-height: 40px;
+    }
+
+    .aside-two {
+        margin-bottom: 60px;
+        line-height: 35px;
     }
   }

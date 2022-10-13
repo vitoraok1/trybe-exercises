@@ -1,8 +1,4 @@
-# Exercise 04
-
-## Creating mobile and print layouts
-
-Before starting, copy the `HTML` and `CSS` template below and save them in their respective files:
+c
 
 `kitten-kare.html`
 
@@ -167,7 +163,7 @@ body {
 
 - The element with `id aside` should be shown below the main content.
 
-[Antes_impressao](./images/Visualiza%C3%A7%C3%A3o%20da%20p%C3%A1gina%20antes%20da%20impress%C3%A3o.png)
+![Antes_impressao](./images/Visualiza%C3%A7%C3%A3o%20da%20p%C3%A1gina%20antes%20da%20impress%C3%A3o.png)
 
 - Add a media query in the CSS file and the necessary rules to make the page look like the images below when the screen is resized to smaller widths. Specifically:
 
@@ -181,6 +177,6 @@ body {
 
 - The element with `id header` must be fixed, so that it always appears at the top of the screen, even after the user scrolls the page.
 
-[240x320](./images/240x320_%20tela%20pequena%20.png)
+![240x320](./images/240x320_%20tela%20pequena%20.png)
 
-[360x640](./images/360x640%20tela%20de%20smartphone.png)
+![360x640](./images/360x640%20tela%20de%20smartphone.png)

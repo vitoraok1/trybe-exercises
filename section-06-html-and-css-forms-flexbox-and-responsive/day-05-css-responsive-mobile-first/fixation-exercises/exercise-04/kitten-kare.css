@@ -91,3 +91,53 @@ body {
       margin-right: 0px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+
+    #aside {
+      display: none;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    img {
+      width: 100vw;
+    }
+
+    #navigation ul {
+      flex-direction: column;
+      padding-top: 75px;
+    }
+
+    #navigation li a {
+      padding: 15px 10px;
+      margin-left: 10px;
+      color: #fff;
+      text-decoration: none;
+      border-right: none;
+      width: 100%;
+    }
+
+    #header {
+      position: fixed;
+      width: 100%;
+      height: 35px;
+    }
+
+    #content {
+      margin-left: 0;
+    }
+
+    #content h2 {
+      margin-left: 20px;
+      padding-bottom: 10px;
+    }
+
+    #content p {
+      margin-left: 20px;
+      width: 92vw;
+      text-align: justify;
+    }
+  }

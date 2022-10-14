@@ -112,6 +112,7 @@ body {
     }
 
     #navigation li a {
+      font-size: 1.2em;
       padding: 15px 10px;
       margin-left: 10px;
       color: #fff;
@@ -137,7 +138,8 @@ body {
 
     #content p {
       margin-left: 20px;
-      width: 92vw;
+      width: 90vw;
       text-align: justify;
+      font-size: 1.2em;
     }
   }

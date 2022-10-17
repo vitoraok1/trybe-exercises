@@ -15,3 +15,9 @@ const longestWord = (phrase) => {
 }
 
 console.log(`A maior palavra é ${longestWord(phrase)}`);
+
+// Using array.sort()
+
+const longestWordNew = phrase => phrase.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];
+
+console.log(`A maior palavra é ${longestWordNew(phrase)}`);

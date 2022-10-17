@@ -1,0 +1,23 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 70vh;
+}
+
+footer {
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+  background:#999;
+}
+
+footer span {
+  margin-top: 40px;
+}

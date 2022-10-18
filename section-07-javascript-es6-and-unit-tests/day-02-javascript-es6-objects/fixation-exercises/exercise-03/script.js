@@ -73,3 +73,18 @@ const getValueByNumber = (object, number) => {
 }
 
 console.log(getValueByNumber(lesson1, 0));
+
+// Create a function that checks if the (key/value) pair exists in the function. This function must have three parameters, namely: the object, the key name and the key value.
+
+const verifyPair = (object, key, value) => {
+  const array = Object.entries(object);
+  let isEqual = false;
+
+  for (let index in array) {
+    if (array[index][0] === key && array[index][1] === value)
+    isEqual = true;
+  }
+  return isEqual;
+}
+
+console.log(verifyPair(lesson1, 'turno', 'manhã'));

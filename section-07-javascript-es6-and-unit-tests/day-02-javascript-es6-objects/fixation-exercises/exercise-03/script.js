@@ -47,3 +47,8 @@ console.log(`The object size is ${objectSize(lesson1)}`);
 const valuesList = (object) => Object.values(object);
 
 console.log(valuesList(lesson3));
+
+// Create an object named `allLessons`, which should group all classes through `Object.assign`. Each key of this new object will be a class, these keys being: `lesson1`, `lesson2` and `lesson3`.
+
+const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
+console.log(allLessons);

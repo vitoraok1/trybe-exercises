@@ -64,3 +64,12 @@ const returnTotalStudents = (allLessons) => {
 }
 
 console.log(`The total number of students is ${returnTotalStudents(allLessons)}`)
+
+// Create a function that gets the value of the key according to its position in the object.
+
+const getValueByNumber = (object, number) => {
+  const output = Object.values(object)[number];
+  return output;
+}
+
+console.log(getValueByNumber(lesson1, 0));

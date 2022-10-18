@@ -26,3 +26,9 @@ const addFunction = (object, key, value) => {
 
 addFunction(lesson2, 'turno', 'noite');
 console.log(lesson2);
+
+// Create a function to list the keys of an object. This function must take an object as a parameter.
+
+const listKeys = (object) => Object.keys(object);
+
+console.log(listKeys(lesson2));

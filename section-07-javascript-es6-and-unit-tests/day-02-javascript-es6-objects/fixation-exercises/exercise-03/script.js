@@ -41,3 +41,9 @@ const objectSize = (object) => {
 }
 
 console.log(`The object size is ${objectSize(lesson1)}`);
+
+// Create a function to list the values ​​of an object. This function must take an object as a parameter.
+
+const valuesList = (object) => Object.values(object);
+
+console.log(valuesList(lesson3));

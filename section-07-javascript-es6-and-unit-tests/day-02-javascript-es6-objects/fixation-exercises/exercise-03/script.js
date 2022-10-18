@@ -17,3 +17,12 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+// Create a function to add the night shift to `lesson2`. This function must have three parameters, namely: the object to be modified, the key that must be added and its value.
+
+const addFunction = (object, key, value) => {
+  object[key] = value;
+}
+
+addFunction(lesson2, 'turno', 'noite');
+console.log(lesson2);

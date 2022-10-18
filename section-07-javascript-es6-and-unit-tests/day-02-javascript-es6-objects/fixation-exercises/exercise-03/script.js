@@ -52,3 +52,15 @@ console.log(valuesList(lesson3));
 
 const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
 console.log(allLessons);
+
+// Using the object created in the previous topic, create a function that returns the total number of students in all classes.
+
+const returnTotalStudents = (allLessons) => {
+  const studentsLesson1 = allLessons.lesson1.numeroEstudantes;
+  const studentsLesson2 = allLessons.lesson2.numeroEstudantes;
+  const studentsLesson3 = allLessons.lesson3.numeroEstudantes;
+  const totalStudents = studentsLesson1 + studentsLesson2 + studentsLesson3;
+  return totalStudents;
+}
+
+console.log(`The total number of students is ${returnTotalStudents(allLessons)}`)

@@ -1,0 +1,15 @@
+{
+  "name": "exercise-02",
+  "version": "1.0.0",
+  "description": "Copy the already implemented function and develop the tests. Separate the function and test into different files to avoid any kind of problem.",
+  "main": "my-remove.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}

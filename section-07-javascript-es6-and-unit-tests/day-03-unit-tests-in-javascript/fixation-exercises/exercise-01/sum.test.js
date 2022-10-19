@@ -7,5 +7,10 @@ describe('Teste se o retorno de sum(4, 5) é 9', () => {
 
   it('Deve retornar o resultado da soma de 0 + 0 que é igual a 0', () => {
     expect(sum(0, 0)).toBe(0);
-  })
+  });
+
+  it('Deve retornar um erro caso um parâmetro seja uma string', () => {
+    expect(() => sum(4, '5')).toThrowError;
+    expect(() => sum(4, '5')).toThrowError('parameters must be numbers');
+  });
 });

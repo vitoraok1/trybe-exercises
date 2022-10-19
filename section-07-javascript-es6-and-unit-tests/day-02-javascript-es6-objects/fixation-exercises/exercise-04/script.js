@@ -20,7 +20,7 @@ const lesson3 = {
 
 const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
 
-//Using the object allLessons, create a function to count how many students attended Math classes.
+// Using the object allLessons, create a function to count how many students attended Math classes.
 
 const countStudents = (object) => {
  
@@ -36,3 +36,28 @@ const countStudents = (object) => {
 }
 
 console.log(countStudents(allLessons));
+
+// Using the object allLessons, create a function that should return an object that represents the teacher's report, the classes he or she taught and the total number of students
+
+const getInfo = (object, name) => {
+  const lessons = [];
+  let students = 0;
+  const allLessonsArray = Object.values(object);
+
+  for (index in allLessonsArray) {
+    if (allLessonsArray[index].professor === name) {
+      lessons.push(allLessonsArray[index].materia);
+      students += allLessonsArray[index].numeroEstudantes;
+    }
+  }
+  return { aulas: lessons, estudantes: students};
+}
+
+const createReport = (object, name) => {
+  const report = {};
+  report.professor = name;
+  Object.assign(report, getInfo(object, name));
+  return report;
+}
+
+console.log(createReport(allLessons, 'Maria Clara'));

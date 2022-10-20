@@ -13,4 +13,9 @@ describe('Testa as funções encode e decode', () => {
     expect(encode('Eu vou ser aprovado no projeto de hoje!')).toEqual('E5 v45 s2r 1pr4v1d4 n4 pr4j2t4 d2 h4j2!');
     expect(encode('projeto unit tests')).toEqual('pr4j2t4 5n3t t2sts');
   });
+
+  it('Testa se as se os números 1, 2, 3, 4 e 5 são convertidos nas vogais a, e, i, o, u na função decode', () => {
+    expect(decode('12345')).toEqual('aeiou');
+    expect(decode('22 31 42 133')).toEqual('ee ia oe aii');
+  });
 });

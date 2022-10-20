@@ -18,4 +18,12 @@ describe('Testa as funções encode e decode', () => {
     expect(decode('12345')).toEqual('aeiou');
     expect(decode('22 31 42 133')).toEqual('ee ia oe aii');
   });
+
+  it('Testa se as demais letras não são convertidas para cada caso na função encode', () => {
+    expect(encode('qwrtypsdfghjklzxcvbnm')).toEqual('qwrtypsdfghjklzxcvbnm');
+  });
+
+  it('Testa se os demais números não são convertidas para cada caso na função decode', () => {
+    expect(encode('67890')).toEqual('67890');
+  });
 });

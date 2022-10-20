@@ -26,4 +26,14 @@ describe('Testa as funções encode e decode', () => {
   it('Testa se os demais números não são convertidas para cada caso na função decode', () => {
     expect(encode('67890')).toEqual('67890');
   });
+
+  it('Testa se a string retornada tem o mesmo número de caracteres da passada como parâmetro na função encode', () => {
+    expect(encode('abc')).toHaveLength(3);
+    expect(encode('Trybe')).toHaveLength(5);
+  });
+
+  it('Testa se a string retornada tem o mesmo número de caracteres da passada como parâmetro na função decode', () => {
+    expect(encode('abc')).toHaveLength(3);
+    expect(encode('Trybe')).toHaveLength(5);
+  });
 });

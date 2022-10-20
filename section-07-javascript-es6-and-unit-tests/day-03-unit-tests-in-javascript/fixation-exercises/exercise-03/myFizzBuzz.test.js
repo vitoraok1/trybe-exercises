@@ -10,4 +10,9 @@ describe ('Testando a função myFizzBuzz', () => {
     expect (myFizzBuzz(3)).toBe('fizz');
     expect (myFizzBuzz(12)).toBe('fizz');
   })
+
+  it ('Verificando se um número divisível por 5 retorna buzz', () => {
+    expect (myFizzBuzz(5)).toBe('buzz');
+    expect (myFizzBuzz(25)).toBe('buzz');
+  })
 });

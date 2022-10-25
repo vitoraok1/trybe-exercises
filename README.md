@@ -78,7 +78,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 8: JavaScript ES6 :hourglass_flowing_sand:
 
-- [ ] 8.1: JavaScript ES6 - Introduction to Higher Order Functions
+- [X] 8.1: JavaScript ES6 - Introduction to Higher Order Functions
 - [ ] 8.2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [ ] 8.3: JavaScript ES6 - Higher Order Functions - map and filter
 - [ ] 8.4: JavaScript ES6 - Higher Order Functions - reduce

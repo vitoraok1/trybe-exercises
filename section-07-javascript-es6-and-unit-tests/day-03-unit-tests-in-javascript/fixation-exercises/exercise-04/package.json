@@ -1,0 +1,15 @@
+{
+  "name": "exercise-04",
+  "version": "1.0.0",
+  "description": "- Consider the code below to perform the next exercise:",
+  "main": "encodeDecode.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}

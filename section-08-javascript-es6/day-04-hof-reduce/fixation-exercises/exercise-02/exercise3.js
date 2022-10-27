@@ -12,5 +12,12 @@ const expectedResult = {
 };
 
 function longestNamedBook() {
-  // escreva seu código aqui
+  return books.reduce((biggestBook, currentBook) => {
+    if (currentBook.name.length < biggestBook.name.length) {
+      return biggestBook;
+    }
+    return currentBook;
+  });
 }
+
+console.log(longestNamedBook());

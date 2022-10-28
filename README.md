@@ -81,7 +81,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 8.1: JavaScript ES6 - Introduction to Higher Order Functions
 - [X] 8.2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.3: JavaScript ES6 - Higher Order Functions - map and filter
-- [ ] 8.4: JavaScript ES6 - Higher Order Functions - reduce
+- [X] 8.4: JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.5: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
 - [ ] 8.6: Project - Zoo functions
 

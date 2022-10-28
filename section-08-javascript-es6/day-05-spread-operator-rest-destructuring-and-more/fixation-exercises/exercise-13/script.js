@@ -19,6 +19,13 @@ const ships = [
 
 // escreva shipLength abaixo
 
+// const shipLength = (ships) => {
+//   const {name, length, measurementUnit} = ships;
+//   return `${name} is ${length} ${measurementUnit} long`
+// }
+
+const shipLength = ({name, length, measurementUnit}) => `${name} is ${length} ${measurementUnit} long`;
+
 // retorno esperado
 console.log(shipLength(ships[0])); // 'Titanic is 269.1 meters long'
 console.log(shipLength(ships[1])); // 'Queen Mary 2 is 1132 feet long'

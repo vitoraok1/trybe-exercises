@@ -1,2 +1,6 @@
 const myList = [5, 2, 3];
-// escreva swap abaixo
+const [firstNumber, secondNumber, thirdNumber] = myList;
+
+const swap = (paramList) => [thirdNumber, secondNumber, firstNumber];
+
+console.log(swap(myList));

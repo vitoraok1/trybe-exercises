@@ -5,3 +5,11 @@ const yearSeasons = {
   winter: ['December', 'January', 'February'],
 };
 // yearSeasons: estações do ano.
+
+const monthsOfYear = () => {
+  const {spring, summer, autumn, winter} = yearSeasons;
+  const returnArray = [...spring, ...summer, ...autumn, ...winter];
+  return returnArray;
+}
+
+console.log(monthsOfYear());

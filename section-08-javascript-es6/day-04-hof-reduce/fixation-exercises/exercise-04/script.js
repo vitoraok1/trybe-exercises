@@ -3,12 +3,9 @@ const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
 function studentAverage() {
 
-  return students.map((name, index) => {
-    return {
-      name: name,
-      average: (grades[index].reduce((sum, actualGrade) => sum + actualGrade, 0) / grades[index].length),
-    }
-  });
+  return students.map((name, index) => ({ 
+    name: name, 
+    average: (grades[index].reduce((sum, actualGrade) => sum + actualGrade, 0) / grades[index].length)}));
 }
 
 console.log(studentAverage());

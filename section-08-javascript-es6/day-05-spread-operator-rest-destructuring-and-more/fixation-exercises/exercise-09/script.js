@@ -14,7 +14,12 @@ const gunnar = {
 // name: nome da pessoa, age: idade, likes: gosta de, nationality: nacionalidade
 
 // complete a assinatura da função abaixo
-const personLikes = () => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+const personLikes = (personName) => {
+  const {name} = personName;
+  const {age} = personName;
+  const {likes} = personName;
+  return `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+}
 // <nome> tem <anos de idade> e gosta de <gostos da pessoa>
 
 // Retornos esperados:

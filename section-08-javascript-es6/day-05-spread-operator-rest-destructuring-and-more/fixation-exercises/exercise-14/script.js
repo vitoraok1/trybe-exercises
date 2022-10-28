@@ -1,4 +1,5 @@
 // escreva greet abaixo
+const greet = (name, message = 'Hi') => `'${message} ${name}'`;
 
 // Retornos esperados:
 console.log(greet('John')); // 'Hi John'

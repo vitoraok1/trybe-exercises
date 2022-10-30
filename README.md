@@ -89,10 +89,11 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 1: Javascript and Asynchronous Tests :closed_book:
 
-- [ ] 1.1: Asynchronous JavaScript and Callbacks
-- [ ] 1.2: Asynchronous JavaScript - Fetch API and async/await
-- [ ] 1.3: Jest - Asynchronous Tests
-- [ ] 1.4: Project - Shopping Cart
+- [ ] 1.1: Development environment
+- [ ] 1.2: Asynchronous JavaScript - Promises and Fetch
+- [ ] 1.3: Practice - Currency Exchange
+- [ ] 1.4: Async, await and asynchronous tests
+- [ ] 1.5: Project - Shopping Cart
 
 ##### Section 2: Introduction to React :closed_book:
 

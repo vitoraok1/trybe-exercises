@@ -76,7 +76,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 7.3: Unit tests in JavaScript
 - [X] 7.4: Project - JavaScript Unit Tests
 
-##### Section 8: JavaScript ES6 :hourglass_flowing_sand:
+##### Section 8: JavaScript ES6 :heavy_check_mark:
 
 - [X] 8.1: JavaScript ES6 - Introduction to Higher Order Functions
 - [X] 8.2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
@@ -85,11 +85,11 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 8.5: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
 - [X] 8.6: Project - Zoo functions
 
-## Front-end Development :closed_book:
+## Front-end Development :hourglass_flowing_sand:
 
-##### Section 1: Javascript and Asynchronous Tests :closed_book:
+##### Section 1: Javascript and Asynchronous Tests :hourglass_flowing_sand:
 
-- [ ] 1.1: Development environment
+- [X] 1.1: Development environment
 - [ ] 1.2: Asynchronous JavaScript - Promises and Fetch
 - [ ] 1.3: Practice - Currency Exchange
 - [ ] 1.4: Async, await and asynchronous tests

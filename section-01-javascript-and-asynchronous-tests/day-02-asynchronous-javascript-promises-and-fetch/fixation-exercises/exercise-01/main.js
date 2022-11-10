@@ -27,7 +27,21 @@ usersSelect.addEventListener('change', () => {
   fetch(POST_API)
     .then((response) => response.json())
     .then((data) => {
-      const { post } = data;
-      fillPosts(post);
+      const { posts } = data;
+      fillPosts(posts);
+
+      const [featuredPost] = posts;
+      const COMMENTS_API = `https://dummyjson.com/posts/${featuredPost.id}/comments`;
+
+      return fetch(COMMENTS_API);
+    })
+    .then((response) => response.json())
+    .then((data) => {
+      const { comments } = data;
+      fillFeaturedPostComments(comments);
+    })
+    .catch((error) => {
+      fillErrorMessage('Erro ao retornar as informações desse autor')
+      console.log(error.message);
     });
 });

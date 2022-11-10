@@ -14,7 +14,7 @@ validateBtn.addEventListener('click', (event) => {
     birthDate: validator.isDate(textField.value, ['/', '-']),
     cpf: validator.isTaxID(textField.value, 'pt-BR'),
     hexColor: validator.isHexColor(textField.value),
-  }
+  };
 
   outputText.innerHTML = `A validação retornou ${fields[selector.value]}`;
 });

@@ -11,14 +11,14 @@ import {
 const usersSelect = document.querySelector('#users-select');
 
 const USERS_API = 'https://dummyjson.com/users';
-
+// Recuperar as informações das pessoas usuárias
 fetch(USERS_API)
   .then((response) => response.json())
   .then((data) => {
     const { users } = data;
     fillUsersSelect(users);
   })
-
+// Carregar lista de posts da pessoa selecionada
 usersSelect.addEventListener('change', () => {
   clearPageData();
 
@@ -28,6 +28,7 @@ usersSelect.addEventListener('change', () => {
     .then((response) => response.json())
     .then((data) => {
       const { posts } = data;
+      // Passar o array com posts da pessoa selecionada como parâmetro para função fillPosts, que é responsável por imprimir eles na tela
       fillPosts(posts);
 
       const [featuredPost] = posts;

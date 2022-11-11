@@ -32,7 +32,7 @@ function addCoins(coins) {
   });
 }
 
-function handleSearch() {
+function handleSearch () {
   const coin = textArea.value.toUpperCase();
 
   if (!coin) {

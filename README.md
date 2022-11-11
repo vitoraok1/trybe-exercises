@@ -90,8 +90,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 1: Javascript and Asynchronous Tests :hourglass_flowing_sand:
 
 - [X] 1.1: Development environment
-- [ ] 1.2: Asynchronous JavaScript - Promises and Fetch
-- [ ] 1.3: Practice - Currency Exchange
+- [X] 1.2: Asynchronous JavaScript - Promises and Fetch
+- [X] 1.3: Practice - Currency Exchange
 - [ ] 1.4: Async, await and asynchronous tests
 - [ ] 1.5: Project - Shopping Cart
 

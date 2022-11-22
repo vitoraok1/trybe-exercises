@@ -87,7 +87,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ## Front-end Development :hourglass_flowing_sand:
 
-##### Section 1: Javascript and Asynchronous Tests :hourglass_flowing_sand:
+##### Section 1: Javascript and Asynchronous Tests :heavy_check_mark:
 
 - [X] 1.1: Development environment
 - [X] 1.2: Asynchronous JavaScript - Promises and Fetch
@@ -95,7 +95,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 1.4: Async, await and asynchronous tests
 - [X] 1.5: Project - Shopping Cart
 
-##### Section 2: Introduction to React :closed_book:
+##### Section 2: Introduction to React :hourglass_flowing_sand:
 
 - [ ] 2.1: 'Hello, world!' on React!
 - [ ] 2.2: React Components

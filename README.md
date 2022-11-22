@@ -92,8 +92,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 1.1: Development environment
 - [X] 1.2: Asynchronous JavaScript - Promises and Fetch
 - [X] 1.3: Practice - Currency Exchange
-- [ ] 1.4: Async, await and asynchronous tests
-- [ ] 1.5: Project - Shopping Cart
+- [X] 1.4: Async, await and asynchronous tests
+- [X] 1.5: Project - Shopping Cart
 
 ##### Section 2: Introduction to React :closed_book:
 

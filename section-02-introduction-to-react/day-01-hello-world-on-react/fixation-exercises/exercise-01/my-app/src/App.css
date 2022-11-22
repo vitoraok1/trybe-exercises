@@ -1,4 +1,8 @@
-.MyApp {
+.name-title {
   color: blue;
   font-weight: bold;
+}
+
+.skills-list {
+  line-height: 30px;
 }

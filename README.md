@@ -98,8 +98,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 2: Introduction to React :hourglass_flowing_sand:
 
 - [X] 2.1: 'Hello, world!' on React!
-- [ ] 2.2: React Components
-- [ ] 2.3: Project - Solar System
+- [X] 2.2: React Components
+- [X] 2.3: Project - Solar System
 
 ##### Section 3: Components with State, Events and Forms with React :closed_book:
 

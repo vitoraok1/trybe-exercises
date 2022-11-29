@@ -23,21 +23,30 @@ class App extends React.Component {
   }
 
   clickButton1 = () => {
+    const { clickBtn1 } = this.state;
     this.setState((previousState, props_) => ({
       clickBtn1: previousState.clickBtn1 + 1
-    }));
+    }), () => {
+      console.log(`Button 1 ${this.getBtnColor(clickBtn1)}`)
+    });
   }
   
   clickButton2 () {
+    const { clickBtn2 } = this.state;
     this.setState((previousState, props_) => ({
       clickBtn2: previousState.clickBtn2 + 1
-    }));
+    }), () => {
+      console.log(`Button 2 ${this.getBtnColor(clickBtn2)}`)
+    });
   }
   
   clickButton3 () {
+    const { clickBtn3 } = this.state;
     this.setState((previousState, props_) => ({
       clickBtn3: previousState.clickBtn3 + 1
-    }));
+    }), () => {
+      console.log(`Button 2 ${this.getBtnColor(clickBtn3)}`)
+    });
   }
 
   render() {
@@ -45,9 +54,26 @@ class App extends React.Component {
 
     return (
       <div>
-        <button onClick={ this.clickButton1 }>{ clickBtn1 }</button>
-        <button onClick={ this.clickButton2 }>{ clickBtn2 }</button>
-        <button onClick={ this.clickButton3 }>{ clickBtn3 }</button>
+        <button 
+        onClick={ this.clickButton1 }
+        style={ { backgroundColor: this.getBtnColor(clickBtn1) } }
+        >
+          { clickBtn1 }
+        </button>
+
+        <button 
+        onClick={ this.clickButton2 }
+        style={ { backgroundColor: this.getBtnColor(clickBtn2) } }
+        >
+          { clickBtn2 }
+        </button>
+
+        <button 
+        onClick={ this.clickButton3 }
+        style={ { backgroundColor: this.getBtnColor(clickBtn3) } }
+        >
+          { clickBtn3 }
+        </button>
       </div>
     );
   }

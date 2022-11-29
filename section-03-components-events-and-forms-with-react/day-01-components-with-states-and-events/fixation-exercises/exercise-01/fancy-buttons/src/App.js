@@ -14,6 +14,14 @@ class App extends React.Component {
     }
   }
 
+  getBtnColor(num) {
+    if (num % 2 === 0) {
+      return 'green';
+    } else {
+      return 'white';
+    }
+  }
+
   clickButton1 = () => {
     this.setState((previousState, props_) => ({
       clickBtn1: previousState.clickBtn1 + 1

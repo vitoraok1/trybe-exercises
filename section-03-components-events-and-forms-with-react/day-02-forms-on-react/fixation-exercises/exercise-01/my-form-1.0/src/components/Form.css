@@ -8,8 +8,7 @@
 
 .form {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
   margin: auto;
   margin-top: 5rem;
   max-width: 600px;
@@ -19,4 +18,8 @@
   line-height: 2rem;
   background-color: rgb(40, 71, 156);
   color: white;
+}
+
+.error-message {
+  text-align: right;
 }

@@ -18,7 +18,6 @@ class NameInput extends React.Component {
                 value={nameValue}
                 onChange={handleChange}
               />
-              <br />
               <span>{ error ? error : '' }</span>
             </label>
     );

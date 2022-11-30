@@ -1,0 +1,22 @@
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  max-width: 500px;
+  border: 2px solid rgb(57, 54, 255);
+  border-radius: 10px;
+  padding: 2rem;
+  line-height: 3rem;
+  background-color: rgb(40, 71, 156);
+  color: white;
+}

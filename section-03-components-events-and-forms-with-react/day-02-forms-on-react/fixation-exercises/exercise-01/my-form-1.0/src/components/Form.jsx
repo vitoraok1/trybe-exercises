@@ -1,5 +1,7 @@
 import React from 'react';
 import SelectInput from './SelectInput';
+import NameInput from './NameInput';
+import FavoriteFood from './FavoriteFood';
 import './Form.css';
 
 class Form extends React.Component {
@@ -32,34 +34,20 @@ class Form extends React.Component {
       <form className="form">
         <fieldset>
           <legend>Informações pessoais</legend>
-            <label>
-              Qual seu nome?
-              <input
-                type="text"
-                name="nameValue"
-                value={nameValue}
-                onChange={this.handleChange}
-              />
-            </label>
+            <NameInput
+              nameValue={ nameValue }
+              handleChange={ this.handleChange }
+            />
             <br/>
             <SelectInput
               ageValue={ ageValue }
               handleChange={ this.handleChange }
             />
             <br/>
-            <label>
-              Qual sua comida favorita?
-              <select
-              name="favFood"
-              value={favFood}
-              onChange={this.handleChange}
-              >
-                <option value="strogonoff">Strogonoff de Frango</option>
-                <option value="churrasco">Churrasco</option>
-                <option value="japonesa">Comida Japonesa</option>
-                <option value="lasanha">Lasanha</option>
-              </select>
-            </label>
+            <FavoriteFood
+            favFood = { favFood }
+            handleChange={ this.handleChange }
+            />
         </fieldset>
 
         <fieldset>

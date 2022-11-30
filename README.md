@@ -103,7 +103,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 3: Components with State, Events and Forms with React :closed_book:
 
-- [ ] 3.1: Components with states and events
+- [X] 3.1: Components with states and events
 - [ ] 3.2: Forms on React
 - [ ] 3.3: Project - Tryunfo
 

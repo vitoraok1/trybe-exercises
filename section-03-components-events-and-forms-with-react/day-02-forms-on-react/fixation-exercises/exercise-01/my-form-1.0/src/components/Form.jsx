@@ -71,6 +71,13 @@ class Form extends React.Component {
         </label>
         
         <label>
+          Envie uma selfie sua aqui:
+          <input
+            type="file"
+          />
+        </label>
+
+        <label>
           Concorda com o uso das informações?
           <input
             type="checkbox"

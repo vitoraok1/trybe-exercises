@@ -9,14 +9,15 @@ class Form extends React.Component {
     nameValue: '',
     ageValue: '',
     descrValue: '',
-    favFood: 'strogonoff'
+    favFood: 'strogonoff',
+    agreeInfo: false
    };
 
   }
 
   handleChange = ({ target }) => {
     const { name } = target;
-    const value = target.value;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
 
     this.setState({ 
       [name]: value,
@@ -69,6 +70,15 @@ class Form extends React.Component {
           </select>
         </label>
         
+        <label>
+          Concorda com o uso das informações?
+          <input
+            type="checkbox"
+            name="agreeInfo"
+            value={this.state.agreeInfo}
+            onChange={this.handleChange}
+          />
+        </label>
       </form>
     );
   }

@@ -8,15 +8,15 @@
 
 .form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
   margin: auto;
   margin-top: 5rem;
-  max-width: 500px;
+  max-width: 600px;
   border: 2px solid rgb(57, 54, 255);
   border-radius: 10px;
   padding: 2rem;
-  line-height: 3rem;
+  line-height: 2rem;
   background-color: rgb(40, 71, 156);
   color: white;
 }

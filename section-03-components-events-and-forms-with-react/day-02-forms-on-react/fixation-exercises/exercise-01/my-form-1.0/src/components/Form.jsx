@@ -1,4 +1,5 @@
 import React from 'react';
+import SelectInput from './SelectInput';
 import './Form.css';
 
 class Form extends React.Component {
@@ -25,67 +26,72 @@ class Form extends React.Component {
   };
 
   render() {
+    const { nameValue, ageValue, descrValue, favFood, agreeInfo } = this.state;
+
     return (
       <form className="form">
-        <label>
-          Qual seu nome?
-          <input
-            type="text"
-            name="nameValue"
-            value={this.state.nameValue}
-            onChange={this.handleChange}
-          />
-        </label>
+        <fieldset>
+          <legend>Informações pessoais</legend>
+            <label>
+              Qual seu nome?
+              <input
+                type="text"
+                name="nameValue"
+                value={nameValue}
+                onChange={this.handleChange}
+              />
+            </label>
+            <br/>
+            <SelectInput
+              ageValue={ ageValue }
+              handleChange={ this.handleChange }
+            />
+            <br/>
+            <label>
+              Qual sua comida favorita?
+              <select
+              name="favFood"
+              value={favFood}
+              onChange={this.handleChange}
+              >
+                <option value="strogonoff">Strogonoff de Frango</option>
+                <option value="churrasco">Churrasco</option>
+                <option value="japonesa">Comida Japonesa</option>
+                <option value="lasanha">Lasanha</option>
+              </select>
+            </label>
+        </fieldset>
 
-        <label>
-          Qual sua idade?
-          <input
-            type="number"
-            name="ageValue"
-            value={this.state.ageValue}
-            onChange={this.handleChange}
-          />
-        </label>
-
-        <label>
-          Descreva um pouco sobre você:
-          <textarea
-          name="descrValue"
-          value={this.state.descrValue}
-          onChange={this.handleChange}
-          />
-        </label>
-
-        <label>
-          Qual sua comida favorita?
-          <select
-          name="favFood"
-          value={this.state.favFood}
-          onChange={this.handleChange}
-          >
-            <option value="strogonoff">Strogonoff de Frango</option>
-            <option value="churrasco">Churrasco</option>
-            <option value="japonesa">Comida Japonesa</option>
-            <option value="lasanha">Lasanha</option>
-          </select>
-        </label>
-        
-        <label>
-          Envie uma selfie sua aqui:
-          <input
-            type="file"
-          />
-        </label>
-
-        <label>
-          Concorda com o uso das informações?
-          <input
-            type="checkbox"
-            name="agreeInfo"
-            value={this.state.agreeInfo}
-            onChange={this.handleChange}
-          />
-        </label>
+        <fieldset>
+          <legend>Descrição e arquivos</legend>
+            <label>
+              Descreva um pouco sobre você:
+              <br/>
+              <textarea
+              name="descrValue"
+              value={descrValue}
+              onChange={this.handleChange}
+              />
+            </label>
+            <br/>
+            <label>
+              Envie uma selfie sua aqui:
+              <br/>
+              <input
+                type="file"
+              />
+            </label>
+            <br/>
+            <label>
+              Concorda com os termos?
+              <input
+                type="checkbox"
+                name="agreeInfo"
+                value={agreeInfo}
+                onChange={this.handleChange}
+              />
+            </label>
+        </fieldset>
       </form>
     );
   }

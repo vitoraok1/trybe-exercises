@@ -6,13 +6,21 @@ class Form extends React.Component {
     super()
 
    this.state = {
-    nameValue: ''
+    nameValue: '',
+    ageValue: '',
+    descrValue: '',
+    favFood: 'strogonoff'
    };
 
   }
 
-  handleTextAreaChange = (event) => {
-    this.setState({ nameValue: event.target.value });
+  handleChange = ({ target }) => {
+    const { name } = target;
+    const value = target.value;
+
+    this.setState({ 
+      [name]: value,
+    });
   };
 
   render() {
@@ -24,22 +32,36 @@ class Form extends React.Component {
             type="text"
             name="nameValue"
             value={this.state.nameValue}
-            onChange={this.handleTextAreaChange}/>
+            onChange={this.handleChange}
+          />
         </label>
 
         <label>
           Qual sua idade?
-          <input type="number" />
+          <input
+            type="number"
+            name="ageValue"
+            value={this.state.ageValue}
+            onChange={this.handleChange}
+          />
         </label>
 
         <label>
           Descreva um pouco sobre você:
-          <textarea />
+          <textarea
+          name="descrValue"
+          value={this.state.descrValue}
+          onChange={this.handleChange}
+          />
         </label>
 
         <label>
           Qual sua comida favorita?
-          <select>
+          <select
+          name="favFood"
+          value={this.state.favFood}
+          onChange={this.handleChange}
+          >
             <option value="strogonoff">Strogonoff de Frango</option>
             <option value="churrasco">Churrasco</option>
             <option value="japonesa">Comida Japonesa</option>

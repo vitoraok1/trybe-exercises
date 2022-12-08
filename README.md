@@ -95,19 +95,19 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 1.4: Async, await and asynchronous tests
 - [X] 1.5: Project - Shopping Cart
 
-##### Section 2: Introduction to React :hourglass_flowing_sand:
+##### Section 2: Introduction to React :heavy_check_mark:
 
 - [X] 2.1: 'Hello, world!' on React!
 - [X] 2.2: React Components
 - [X] 2.3: Project - Solar System
 
-##### Section 3: Components with State, Events and Forms with React :closed_book:
+##### Section 3: Components with State, Events and Forms with React :heavy_check_mark:
 
 - [X] 3.1: Components with states and events
-- [ ] 3.2: Forms on React
-- [ ] 3.3: Project - Tryunfo
+- [X] 3.2: Forms on React
+- [X] 3.3: Project - Tryunfo
 
-##### Section 4: Components Life Cycle and React Router :closed_book:
+##### Section 4: Components Life Cycle and React Router :hourglass_flowing_sand:
 
 - [ ] 4.1: Components Life Cycle on React
 - [ ] 4.2: React Router

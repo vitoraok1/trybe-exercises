@@ -26,6 +26,18 @@ class User extends Component {
       });
   }
 
+  shouldComponentUpdate(_nextProps, nextState) {
+    const requiredAge = 50;
+    const validationAge = nextState.person[0].dob.age < requiredAge;
+
+    if (validationAge) {
+      return true;
+    } else {
+      return false;
+    }
+    
+  }
+
   getUserElements(user) {
     return {
       name: `${user.name.first} ${user.name.last}`,

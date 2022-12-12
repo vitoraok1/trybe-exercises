@@ -12,7 +12,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route
-            path="/users:id"
+            path="/users/:id"
             render={ (props) => <Users {...props} greetingMessage="Good Morning"/> } 
           />
           <Route

@@ -10,9 +10,12 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ Home } />
+          <Route
+            path="/users:id"
+            render={ (props) => <Users {...props} greetingMessage="Good Morning"/> } 
+          />
           <Route path="/about" component={ About } />
-          <Route path="/users:id" render={ (props) => <Users {...props} greetingMessage="Good Morning"/> } />
+          <Route exact path="/" component={ Home } />
         </Switch>
       </BrowserRouter>
     );

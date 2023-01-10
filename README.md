@@ -110,8 +110,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 4: Components Life Cycle and React Router :hourglass_flowing_sand:
 
 - [X] 4.1: Components Life Cycle on React
-- [ ] 4.2: React Router
-- [ ] 4.3: Project - TrybeTunes
+- [X] 4.2: React Router
+- [X] 4.3: Project - TrybeTunes
 
 ##### Section 5: Agile Methodologies :closed_book:
 

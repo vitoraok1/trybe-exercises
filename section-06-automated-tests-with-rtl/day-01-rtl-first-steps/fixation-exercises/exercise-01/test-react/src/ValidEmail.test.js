@@ -23,5 +23,19 @@ describe('Testando formato de email', () => {
     const isValid = screen.queryByTestId('id-is-email-valid');
     expect(isValid).not.toBeInTheDocument();
   });
+
+  it('Testando se a cor do texto renderizado corresponde caso seja válido', () => {
+    const EMAIL_USER = 'email@email.com';
+    render(<ValidEmail email={ EMAIL_USER } />);
+    const isValid = screen.queryByTestId('id-is-email-valid');
+    expect(isValid).toHaveAttribute('class', 'valid-text');
+  });
+
+  it('Testando se a cor do texto renderizado corresponde caso seja inválido', () => {
+    const EMAIL_USER = 'emailerrado';
+    render(<ValidEmail email={ EMAIL_USER } />);
+    const isValid = screen.queryByTestId('id-is-email-valid');
+    expect(isValid).toHaveAttribute('class', 'invalid-text');
+  });
 });
 

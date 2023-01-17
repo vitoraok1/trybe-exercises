@@ -16,5 +16,12 @@ describe('Testando formato de email', () => {
     const isValid = screen.getByText('Email Inválido');
     expect(isValid).toBeInTheDocument();
   });
+
+  it('Testando se o componente não é renderizado caso o input e-mail esteja vazio', () => {
+    const EMAIL_USER = '';
+    render(<ValidEmail email={ EMAIL_USER } />);
+    const isValid = screen.queryByTestId('id-is-email-valid');
+    expect(isValid).not.toBeInTheDocument();
+  });
 });
 

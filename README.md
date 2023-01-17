@@ -115,8 +115,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 5: Agile Methodologies :closed_book:
 
-- [ ] 5.1: Agile Methodologies
-- [ ] 5.2: Project - Frontend Online Store
+- [X] 5.1: Agile Methodologies
+- [X] 5.2: Project - Frontend Online Store
 
 ##### Section 6: Automated Tests with React Testing Library :closed_book:
 

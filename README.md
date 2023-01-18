@@ -120,7 +120,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 6: Automated Tests with React Testing Library :closed_book:
 
-- [ ] 6.1: RTL - First steps
+- [X] 6.1: RTL - First steps
 - [ ] 6.2: RTL - Mocks and Inputs
 - [ ] 6.3: RTL - Testing React Router
 - [ ] 6.4: Project - Tests on React

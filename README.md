@@ -122,8 +122,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 6.1: RTL - First steps
 - [X] 6.2: RTL - Mocks and Inputs
-- [ ] 6.3: RTL - Testing React Router
-- [ ] 6.4: Project - Tests on React
+- [X] 6.3: RTL - Testing React Router
+- [X] 6.4: Project - Tests on React
 
 ##### Section 7: State Management with Redux :closed_book:
 

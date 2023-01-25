@@ -107,25 +107,25 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.2: Forms on React
 - [X] 3.3: Project - Tryunfo
 
-##### Section 4: Components Life Cycle and React Router :hourglass_flowing_sand:
+##### Section 4: Components Life Cycle and React Router :heavy_check_mark:
 
 - [X] 4.1: Components Life Cycle on React
 - [X] 4.2: React Router
 - [X] 4.3: Project - TrybeTunes
 
-##### Section 5: Agile Methodologies :closed_book:
+##### Section 5: Agile Methodologies :heavy_check_mark:
 
 - [X] 5.1: Agile Methodologies
 - [X] 5.2: Project - Frontend Online Store
 
-##### Section 6: Automated Tests with React Testing Library :closed_book:
+##### Section 6: Automated Tests with React Testing Library :heavy_check_mark:
 
 - [X] 6.1: RTL - First steps
 - [X] 6.2: RTL - Mocks and Inputs
 - [X] 6.3: RTL - Testing React Router
 - [X] 6.4: Project - Tests on React
 
-##### Section 7: State Management with Redux :closed_book:
+##### Section 7: State Management with Redux :hourglass_flowing_sand:
 
 - [ ] 7.1: Introduction to Redux
 - [ ] 7.2: Using React with Redux 

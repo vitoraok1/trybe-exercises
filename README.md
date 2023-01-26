@@ -127,7 +127,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 7: State Management with Redux :hourglass_flowing_sand:
 
-- [ ] 7.1: Introduction to Redux
+- [X] 7.1: Introduction to Redux
 - [ ] 7.2: Using React with Redux 
 - [ ] 7.3: Using React with Redux - Pratice
 - [ ] 7.4: Using React with Redux - Asynchronous Actions

@@ -50,11 +50,11 @@
       const statusButton = document.getElementById('toggle-status');
 
       themeButton.addEventListener('click', () => {
-        // coloque o código aqui.
+        store.dispatch({ type: 'THEME' });
       });
 
       statusButton.addEventListener('click', () => {
-        // coloque o código aqui.
+        store.dispatch({ type: 'STATUS' });
       });
     </script>
   </body>

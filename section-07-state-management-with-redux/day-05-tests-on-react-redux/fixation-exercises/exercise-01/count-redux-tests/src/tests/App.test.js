@@ -34,6 +34,22 @@ describe('Testa o clique dos botões', () => {
   });
 
   it('Verifica se alterando o valor inicial do estado global para 5 os botoes incrementam o valor corretamente', () => {
+    const initialState = {
+      counterReducer: {
+        count: 5,
+      }
+    }
+    renderWithRedux(<App />, { initialState });
 
+    const allBtns = screen.queryAllByRole('button');
+    expect(allBtns.length).toBe(2);
+
+    expect(screen.getByText('5')).toBeInTheDocument();
+
+    userEvent.click(allBtns[0]);
+    expect(screen.getByText('6')).toBeInTheDocument();
+
+    userEvent.click(allBtns[1]);
+    expect(screen.getByText('11')).toBeInTheDocument();
   });
 })

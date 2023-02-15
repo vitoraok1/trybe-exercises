@@ -131,12 +131,12 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 7.2: Using React with Redux 
 - [X] 7.3: Using React with Redux - Pratice
 - [X] 7.4: Using React with Redux - Asynchronous Actions
-- [ ] 7.5: Tests on React-Redux
-- [ ] 7.6: Project - Trybe Wallet
+- [X] 7.5: Tests on React-Redux
+- [X] 7.6: Project - Trybe Wallet
 
 ##### Section 8: Project Trivia Game :closed_book:
 
-- [ ] 8.1: Project Trivia Game
+- [X] 8.1: Project Trivia Game
 
 ##### Section 9: React Hooks & Context API :closed_book:
 

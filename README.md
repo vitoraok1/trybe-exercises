@@ -125,7 +125,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 6.3: RTL - Testing React Router
 - [X] 6.4: Project - Tests on React
 
-##### Section 7: State Management with Redux :hourglass_flowing_sand:
+##### Section 7: State Management with Redux :heavy_check_mark:
 
 - [X] 7.1: Introduction to Redux
 - [X] 7.2: Using React with Redux 
@@ -134,11 +134,11 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 7.5: Tests on React-Redux
 - [X] 7.6: Project - Trybe Wallet
 
-##### Section 8: Project Trivia Game :closed_book:
+##### Section 8: Project Trivia Game :heavy_check_mark:
 
 - [X] 8.1: Project Trivia Game
 
-##### Section 9: React Hooks & Context API :closed_book:
+##### Section 9: React Hooks & Context API :hourglass_flowing_sand:
 
 - [ ] 9.1: React's Context API
 - [ ] 9.2: React Hooks - useState and useContext

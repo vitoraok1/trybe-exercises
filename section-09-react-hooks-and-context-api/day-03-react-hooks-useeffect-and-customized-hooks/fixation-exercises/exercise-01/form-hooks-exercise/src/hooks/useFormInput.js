@@ -7,9 +7,14 @@ function useFormInput(initialValue) {
     setValue(e.target.value);
   }
 
+  function clearInputs() {
+    setValue('');
+  }
+
   return {
     value: value,
     onChange: handleChange,
+    clearInputs,
   };
 }
 

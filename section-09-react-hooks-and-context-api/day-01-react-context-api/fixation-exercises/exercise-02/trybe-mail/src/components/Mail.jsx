@@ -1,26 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import mails from '../data/mails';
 import './Mail.css';
 
 export default function Mail() {
-  const mails = [
-    {
-      id: 1,
-      title: "Vaga de Emprego",
-      status: 0
-    },
-    {
-      id: 2,
-      title: "Boleto a vencer",
-      status: 0
-    },
-    {
-      id: 3,
-      title: "Newsletter Omelete",
-      status: 0
-    },
-  ];
-
   const [mailStatus, setMailStatus] = useState(mails);
+
+  useEffect(() => {
+    if(mailStatus.every((mail) => mail.status === 1)) {
+      alert('Parabéns! Você leu todas suas mensagens!');
+    }
+  }, [mailStatus])
 
   const changeAllRead = () => {
 

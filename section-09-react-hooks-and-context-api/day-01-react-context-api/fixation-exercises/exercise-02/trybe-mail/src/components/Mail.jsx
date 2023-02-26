@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import mails from '../data/mails';
-import './Mail.css';
 
 export default function Mail() {
   const [mailStatus, setMailStatus] = useState(mails);
@@ -46,7 +45,7 @@ export default function Mail() {
       <button type="button" onClick={ changeAllRead }>Marcar todos como lido</button>
       <button type="button" onClick={ changeAllUnread }>Marcar todos como não lido</button>
       { mailStatus.map((mail) => (
-        <div id={ mail.id } key={ mail.id } className={ mail.status ? 'lido' : 'não-lido' }>
+        <div id={ mail.id } key={ mail.id } style={ mail.status ? { fontWeight: 'normal', color: 'gray' } : { fontWeight: 900, color: 'blue' } }>
           <p>{ mail.title }</p>
           <button type="button" onClick={ () => changeMail(mail.id, 1) } >Marcar como lido</button>
           <button type="button" onClick={ () => changeMail(mail.id, 0) }>Marcar como não lido</button>

@@ -142,8 +142,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 9.1: React's Context API
 - [X] 9.2: React Hooks - useState and useContext
-- [ ] 9.3: React Hooks - useEffect and customized Hooks
-- [ ] 9.4: Project - StarWars Datatable with Context API and Hooks
+- [X] 9.3: React Hooks - useEffect and customized Hooks
+- [X] 9.4: Project - StarWars Datatable with Context API and Hooks
 
 ##### Section 10: Project - Recipes App :closed_book:
 

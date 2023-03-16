@@ -147,7 +147,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 10: Project - Recipes App :closed_book:
 
-- [ ] 10.1: Project - Recipes App
+- [X] 10.1: Project - Recipes App
 
  ## Back-end Development :closed_book:
 

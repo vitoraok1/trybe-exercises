@@ -23,7 +23,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - :closed_book: - Not started
 
 # Trybe Lectures
-## Introduction - Fundamentals of Web Development :hourglass_flowing_sand:
+## Introduction - Fundamentals of Web Development :heavy_check_mark:
 
 ##### Section 1: Introduction - Unix & Bash :heavy_check_mark:
 
@@ -85,7 +85,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 8.5: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
 - [X] 8.6: Project - Zoo functions
 
-## Front-end Development :hourglass_flowing_sand:
+## Front-end Development :heavy_check_mark:
 
 ##### Section 1: Javascript and Asynchronous Tests :heavy_check_mark:
 
@@ -138,20 +138,20 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 8.1: Project Trivia Game
 
-##### Section 9: React Hooks & Context API :hourglass_flowing_sand:
+##### Section 9: React Hooks & Context API :heavy_check_mark:
 
 - [X] 9.1: React's Context API
 - [X] 9.2: React Hooks - useState and useContext
 - [X] 9.3: React Hooks - useEffect and customized Hooks
 - [X] 9.4: Project - StarWars Datatable with Context API and Hooks
 
-##### Section 10: Project - Recipes App :closed_book:
+##### Section 10: Project - Recipes App :heavy_check_mark:
 
 - [X] 10.1: Project - Recipes App
 
- ## Back-end Development :closed_book:
+ ## Back-end Development :hourglass_flowing_sand:
 
-##### Section 1: Utilizing Containers :closed_book:
+##### Section 1: Utilizing Containers :hourglass_flowing_sand:
 
 - [ ] 1.1: Utilizing Containers - Docker
 - [ ] 1.2: Handling Images in Docker

@@ -153,7 +153,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 1: Utilizing Containers :hourglass_flowing_sand:
 
-- [ ] 1.1: Utilizing Containers - Docker
+- [X] 1.1: Utilizing Containers - Docker
 - [ ] 1.2: Handling Images in Docker
 - [ ] 1.3: Orchestrating Containers with Docker Compose
 - [ ] 1.4: Project - Docker Todo-List

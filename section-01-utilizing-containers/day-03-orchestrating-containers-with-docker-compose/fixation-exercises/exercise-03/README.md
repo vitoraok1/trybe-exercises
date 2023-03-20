@@ -24,15 +24,3 @@
 5. Instead of using the default network created by Compose, define a network called my-network for the two services to communicate.
 
 6. Upload the environment with the new file using docker-compose and then access it.
-
-7. Start a new `ReactJS` project using create-react-app;
-
-8. Create the `Dockerfile`, as we saw in the last class;
-
-9. Create a new Compose file using version `3`;
-
-10. Define a service in the file for our app, for that use the `build` option to point to the `Dockerfile`;
-
-11. Publish the port exposed in the `Dockerfile` by binding to port `8080` on localhost;
-
-12. To simulate the development process, make the change in some part of the react app code, and then run the command to upload the service again, “rebuilding” the image to apply the changes.

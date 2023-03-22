@@ -151,14 +151,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
  ## Back-end Development :hourglass_flowing_sand:
 
-##### Section 1: Utilizing Containers :hourglass_flowing_sand:
+##### Section 1: Utilizing Containers :heavy_check_mark:
 
 - [X] 1.1: Utilizing Containers - Docker
 - [X] 1.2: Handling Images in Docker
-- [ ] 1.3: Orchestrating Containers with Docker Compose
-- [ ] 1.4: Project - Docker Todo-List
+- [X] 1.3: Orchestrating Containers with Docker Compose
+- [X] 1.4: Project - Docker Todo-List
 
-##### Section 2: Introduction to SQL :closed_book:
+##### Section 2: Introduction to SQL :hourglass_flowing_sand:
 
 - [ ] 2.1: Database SQL
 - [ ] 2.2: Finding data in a database

@@ -160,7 +160,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 2: Introduction to SQL :hourglass_flowing_sand:
 
-- [ ] 2.1: Database SQL
+- [X] 2.1: Database SQL
 - [ ] 2.2: Finding data in a database
 - [ ] 2.3: Filtering data specifically
 - [ ] 2.4: Handling tables

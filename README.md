@@ -158,15 +158,15 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 1.3: Orchestrating Containers with Docker Compose
 - [X] 1.4: Project - Docker Todo-List
 
-##### Section 2: Introduction to SQL :hourglass_flowing_sand:
+##### Section 2: Introduction to SQL :heavy_check_mark:
 
 - [X] 2.1: Database SQL
 - [X] 2.2: Finding data in a database
 - [X] 2.3: Filtering data specifically
-- [ ] 2.4: Handling tables
-- [ ] 2.5: Project - All For One
+- [X] 2.4: Handling tables
+- [X] 2.5: Project - All For One
 
-##### Section 3: SQL Functions, Joins and Subqueries :closed_book:
+##### Section 3: SQL Functions, Joins and Subqueries :hourglass_flowing_sand:
 
 - [ ] 3.1: Most used SQL Functions
 - [ ] 3.2: Simplifying JOINs and UNIONs

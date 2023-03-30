@@ -168,7 +168,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 3: SQL Functions, Joins and Subqueries :hourglass_flowing_sand:
 
-- [ ] 3.1: Most used SQL Functions
+- [X] 3.1: Most used SQL Functions
 - [ ] 3.2: Simplifying JOINs and UNIONs
 - [ ] 3.3: Stored Routines & Subqueries
 - [ ] 3.4: Project - One for All

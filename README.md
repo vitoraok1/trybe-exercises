@@ -170,7 +170,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 3.1: Most used SQL Functions
 - [X] 3.2: Simplifying JOINs and UNIONs
-- [ ] 3.3: Stored Routines & Subqueries
+- [X] 3.3: Stored Routines & Subqueries
 - [ ] 3.4: Project - One for All
 
 ##### Section 4: Introduction to web development with Node.js :closed_book:

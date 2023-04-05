@@ -166,14 +166,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 2.4: Handling tables
 - [X] 2.5: Project - All For One
 
-##### Section 3: SQL Functions, Joins and Subqueries :hourglass_flowing_sand:
+##### Section 3: SQL Functions, Joins and Subqueries :heavy_check_mark:
 
 - [X] 3.1: Most used SQL Functions
 - [X] 3.2: Simplifying JOINs and UNIONs
 - [X] 3.3: Stored Routines & Subqueries
-- [ ] 3.4: Project - One for All
+- [X] 3.4: Project - One for All
 
-##### Section 4: Introduction to web development with Node.js :closed_book:
+##### Section 4: Introduction to web development with Node.js :hourglass_flowing_sand:
 
 - [ ] 4.1: Node.js: Asynchronous Runtime
 - [ ] 4.2: Node.js: API REST with Express

@@ -1,7 +1,7 @@
 const readline = require('readline-sync');
 
-const weightInKg = readline.question('Whats your weight in kilograms?');
-const heightInCm = readline.question('Whats your height in centimeters?');
+const weightInKg = readline.questionFloat('Whats your weight in kilograms?');
+const heightInCm = readline.questionInt('Whats your height in centimeters?');
 
 function imcCalc(weight, height) {
   console.log(`Weight: ${weight}kg, Height: ${height}cm`);

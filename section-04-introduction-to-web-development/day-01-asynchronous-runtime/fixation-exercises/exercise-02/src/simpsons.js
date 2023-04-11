@@ -44,6 +44,15 @@ async function addNewSimpson() {
   await fs.writeFile( './simpsonsFamily.json', JSON.stringify(simpsons));
 }
 
+async function replaceSimpson() {
+  const fileContent = await fs.readFile('./simpsonsFamily.json', 'utf-8');
+  const simpsons = JSON.parse(fileContent);
+  const newSimpsons = simpsons.filter((simpson) => simpson.name !== 'Nelson Muntz');
+  newSimpsons.push({ id: '5', name: 'Maggie Simpson'});
+
+  await fs.writeFile('./simpsonsFamily.json', JSON.stringify(newSimpsons));
+}
+
 async function main() {
   // await readAll();
   // const answerId = 2;
@@ -53,7 +62,8 @@ async function main() {
   // const filteredSimpson = await filterSimpsonsById(filterIds);
   // return filteredSimpson;
   // createNewSimpsonsFile();
-  addNewSimpson();
+  // addNewSimpson();
+  replaceSimpson();
 }
 
 main();

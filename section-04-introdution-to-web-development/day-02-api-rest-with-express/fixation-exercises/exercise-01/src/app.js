@@ -80,4 +80,19 @@ app.delete('/movies/:id', async (req, res) => {
   }
 });
 
+app.get('/movies/search', async (req, res) => {
+  try {
+    const { q } = req.query;
+    const movies = await readFile();
+
+    if(q) {
+      const filteredMovies = movies.filter((film) => film.movie.includes(q));
+      return res.status(200).json(filteredMovies);
+    }
+    res.status(200).end();
+  } catch (error) {
+    res.status(500).send({ message: error.message })
+  }
+});
+
 module.exports = app;

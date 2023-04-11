@@ -176,7 +176,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 4: Introduction to web development with Node.js :hourglass_flowing_sand:
 
 - [X] 4.1: Node.js: Asynchronous Runtime
-- [ ] 4.2: Node.js: API REST with Express
+- [X] 4.2: Node.js: API REST with Express
 - [ ] 4.3: Node.js: Integration Tests
 - [ ] 4.4: Node.js: Express & Middlewares
 - [ ] 4.5: Node.js: Express & MySQL

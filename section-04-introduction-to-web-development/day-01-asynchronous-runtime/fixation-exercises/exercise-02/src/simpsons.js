@@ -20,11 +20,22 @@ async function getSimpsonById(id) {
   return findSimpson;
 }
 
+async function filterSimpsonsById(id) {
+  const fileContent = await fs.readFile('./simpsons.json', 'utf-8');
+  const simpsons = JSON.parse(fileContent);
+  const filterSimpson = simpsons.filter((simpson) => Number(simpson.id) !== id[0] && Number(simpson.id) !== id[1]);
+
+  await fs.writeFile('./simpsons.json', JSON.stringify(filterSimpson));
+}
+
 async function main() {
   // await readAll();
-  const answerId = 2;
-  const getSimpson = await getSimpsonById(answerId);
-  console.log(getSimpson);
+  // const answerId = 2;
+  // const getSimpson = await getSimpsonById(answerId);
+  // console.log(getSimpson);
+  const filterIds = [10, 6];
+  const filteredSimpson = await filterSimpsonsById(filterIds);
+  return filteredSimpson;
 }
 
 main();

@@ -177,7 +177,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 4.1: Node.js: Asynchronous Runtime
 - [X] 4.2: Node.js: API REST with Express
-- [ ] 4.3: Node.js: Integration Tests
+- [X] 4.3: Node.js: Integration Tests
 - [ ] 4.4: Node.js: Express & Middlewares
 - [ ] 4.5: Node.js: Express & MySQL
 - [ ] 4.6: Project - Talker Manager

@@ -173,16 +173,16 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.3: Stored Routines & Subqueries
 - [X] 3.4: Project - One for All
 
-##### Section 4: Introduction to web development with Node.js :hourglass_flowing_sand:
+##### Section 4: Introduction to web development with Node.js :heavy_check_mark:
 
 - [X] 4.1: Node.js: Asynchronous Runtime
 - [X] 4.2: Node.js: API REST with Express
 - [X] 4.3: Node.js: Integration Tests
 - [X] 4.4: Node.js: Express & Middlewares
-- [ ] 4.5: Node.js: Express & MySQL
-- [ ] 4.6: Project - Talker Manager
+- [X] 4.5: Node.js: Express & MySQL
+- [X] 4.6: Project - Talker Manager
 
-##### Section 5: Software Architecture: Model, Service and Controller :closed_book:
+##### Section 5: Software Architecture: Model, Service and Controller :hourglass_flowing_sand:
 
 - [ ] 5.1: Software Architecture - Model Layer
 - [ ] 5.2: Software Architecture - Service Layer

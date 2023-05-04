@@ -13,4 +13,6 @@ app.post('/book', Book.createBook);
 
 app.put('/book/:id', Book.updateBook);
 
+app.delete('/book/:id', Book.removeBook);
+
 module.exports = app;

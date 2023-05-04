@@ -20,8 +20,14 @@ const updateBook = async (id, title, author) => {
     { title, author },
     { where: { id } },
   );
-  console.log(updatedBook); // confira o que é retornado quando o user com o id é ou não encontrado;
   return updatedBook;
+};
+
+const removeBook = async (id) => {
+  const book = await Book.destroy(
+    { where: { id } },
+  );
+  return book;
 };
 
 
@@ -30,4 +36,5 @@ module.exports = {
   getById,
   createBook,
   updateBook,
+  removeBook,
 };

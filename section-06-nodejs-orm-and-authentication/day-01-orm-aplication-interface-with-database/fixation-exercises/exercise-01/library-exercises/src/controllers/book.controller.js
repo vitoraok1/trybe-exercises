@@ -53,9 +53,22 @@ const updateBook = async (req, res) => {
   }
 };
 
+const removeBook = async (req, res) => {
+  try {
+    const { id } = req.params;
+    await BookService.removeBook(id);
+
+    return res.status(200).json({ message: 'Livro excluído com sucesso!' });
+  } catch (e) {
+    console.log(e.message);
+    res.status(500).json({ message: errorMessage });
+  }
+};
+
 module.exports = {
   getAll,
   getById,
   createBook,
   updateBook,
+  removeBook,
 };

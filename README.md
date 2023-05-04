@@ -185,9 +185,9 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 5: Software Architecture: Model, Service and Controller :hourglass_flowing_sand:
 
 - [X] 5.1: Software Architecture - Model Layer
-- [ ] 5.2: Software Architecture - Service Layer
-- [ ] 5.3: Software Architecture - Controller Layer
-- [ ] 5.4: Project - Store Manager
+- [X] 5.2: Software Architecture - Service Layer
+- [X] 5.3: Software Architecture - Controller Layer
+- [X] 5.4: Project - Store Manager
 
 ##### Section 6: Node.js: ORM and Authentication :closed_book:
 

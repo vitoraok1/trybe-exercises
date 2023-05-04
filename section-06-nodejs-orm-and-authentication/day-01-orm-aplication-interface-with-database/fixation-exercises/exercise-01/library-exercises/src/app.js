@@ -9,4 +9,6 @@ app.get('/book', Book.getAll);
 
 app.get('/book/:id', Book.getById);
 
+app.post('/book', Book.createBook);
+
 module.exports = app;

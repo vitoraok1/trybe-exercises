@@ -182,14 +182,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 4.5: Node.js: Express & MySQL
 - [X] 4.6: Project - Talker Manager
 
-##### Section 5: Software Architecture: Model, Service and Controller :hourglass_flowing_sand:
+##### Section 5: Software Architecture: Model, Service and Controller :heavy_check_mark:
 
 - [X] 5.1: Software Architecture - Model Layer
 - [X] 5.2: Software Architecture - Service Layer
 - [X] 5.3: Software Architecture - Controller Layer
 - [X] 5.4: Project - Store Manager
 
-##### Section 6: Node.js: ORM and Authentication :closed_book:
+##### Section 6: Node.js: ORM and Authentication :hourglass_flowing_sand:
 
 - [ ] 6.1: ORM - Application Interface with database
 - [ ] 6.2: ORM - Associations 1:1 and 1:N

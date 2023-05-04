@@ -15,9 +15,19 @@ const createBook = async ({ title, author, pageQuantity }) => {
   return newBook;
 };
 
+const updateBook = async (id, title, author) => {
+  const [updatedBook] = await Book.update(
+    { title, author },
+    { where: { id } },
+  );
+  console.log(updatedBook); // confira o que é retornado quando o user com o id é ou não encontrado;
+  return updatedBook;
+};
+
 
 module.exports = {
   getAll,
   getById,
   createBook,
+  updateBook,
 };

@@ -189,21 +189,19 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 5.3: Software Architecture - Controller Layer
 - [X] 5.4: Project - Store Manager
 
-##### Section 6: Node.js: ORM and Authentication :hourglass_flowing_sand:
+##### Section 6: Node.js: ORM and Authentication :heavy_check_mark:
 
-- [ ] 6.1: ORM - Application Interface with database
-- [ ] 6.2: ORM - Associations 1:1 and 1:N
-- [ ] 6.3: ORM - Associations N:N and Transactions
-- [ ] 6.4: JWT - (JSON Web Token)
-- [ ] 6.5: Project - Blog API
+- [X] 6.1: ORM - Application Interface with database
+- [X] 6.2: ORM - Associations 1:1 and 1:N
+- [X] 6.3: ORM - Associations N:N and Transactions
+- [X] 6.4: JWT - (JSON Web Token)
+- [X] 6.5: Project - Blog API
 
-##### Section 7: Deployment :closed_book:
+##### Section 7: Deployment :hourglass_flowing_sand:
 
-- [ ] 7.1: Infrastructure - Deploy with Heroku
-- [ ] 7.2: Deploy Docker & Heroku
-- [ ] 7.3: Project - Stranger Things
+- [X] 7.1: Infrastructure - Deploy with Railway
 
-##### Section 8: TypeScript :closed_book:
+##### Section 8: TypeScript :hourglass_flowing_sand:
 
 - [ ] 8.1: Introdution to TypeScript
 - [ ] 8.2: Static Typing and Generics

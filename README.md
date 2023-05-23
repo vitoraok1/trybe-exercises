@@ -197,14 +197,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 6.4: JWT - (JSON Web Token)
 - [X] 6.5: Project - Blog API
 
-##### Section 7: Deployment :hourglass_flowing_sand:
+##### Section 7: Deployment :heavy_check_mark:
 
 - [X] 7.1: Infrastructure - Deploy with Railway
 
 ##### Section 8: TypeScript :hourglass_flowing_sand:
 
 - [X] 8.1: Introdution to TypeScript
-- [ ] 8.2: Static Typing and Generics
+- [X] 8.2: Static Typing and Generics
 - [ ] 8.3: Express with TypeScript
 - [ ] 8.4: Project - Trybesmith
 

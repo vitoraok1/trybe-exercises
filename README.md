@@ -205,7 +205,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 8.1: Introdution to TypeScript
 - [X] 8.2: Static Typing and Generics
-- [ ] 8.3: Express with TypeScript
+- [X] 8.3: Express with TypeScript
 - [ ] 8.4: Project - Trybesmith
 
 ##### Section 9: Object-Oriented Programming (POO) and SOLID :closed_book:

@@ -201,14 +201,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 7.1: Infrastructure - Deploy with Railway
 
-##### Section 8: TypeScript :hourglass_flowing_sand:
+##### Section 8: TypeScript :heavy_check_mark:
 
 - [X] 8.1: Introdution to TypeScript
 - [X] 8.2: Static Typing and Generics
 - [X] 8.3: Express with TypeScript
-- [ ] 8.4: Project - Trybesmith
+- [X] 8.4: Project - Trybesmith
 
-##### Section 9: Object-Oriented Programming (POO) and SOLID :closed_book:
+##### Section 9: Object-Oriented Programming (POO) and SOLID :hourglass_flowing_sand:
 
 - [ ] 9.1: Introduction to Object Orientation
 - [ ] 9.2: Inheritance and Interfaces

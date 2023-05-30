@@ -71,8 +71,19 @@ export default class Data {
 
     return monthStr;
   }
+
+  isLeapYear(): boolean {
+    const year = this.year;
+    
+    if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 const date = new Data(17, 4, 1994);
 console.log(date);
 console.log('O mês é:', date.getMonthName());
+console.log('O ano é bissexto?:', date.isLeapYear());

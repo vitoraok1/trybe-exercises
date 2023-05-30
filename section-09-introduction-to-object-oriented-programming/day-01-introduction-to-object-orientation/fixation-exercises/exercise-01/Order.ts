@@ -47,4 +47,18 @@ export default class Order {
     }
     this._discount = value;
   }
+
+  sumOrder(): number {
+    return this.items
+      .reduce((prevValue, item) => {
+        const totalPrice = prevValue + item.price;
+        return totalPrice;
+      }, 0)
+  }
+
+  sumOrderWithDiscount(): number {
+    const sumOrder = this.sumOrder();
+
+    return sumOrder * (1 - this.discount);
+  }
 }

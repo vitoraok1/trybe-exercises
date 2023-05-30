@@ -81,9 +81,26 @@ export default class Data {
       return false;
     }
   }
+
+  compare(date: Data): number {
+    const currentDateStr = `${this.year}/${this.month}/${this.day}`;
+
+    const dateStr = `${date.year}/${date.month}/${date.day}`;
+
+    if (new Date(currentDateStr) > new Date(dateStr)) return 1;
+    if (new Date(currentDateStr) < new Date(dateStr)) return -1;
+
+    return 0;
+
+  }
 }
 
 const date = new Data(17, 4, 1994);
 console.log(date);
 console.log('O mês é:', date.getMonthName());
 console.log('O ano é bissexto?:', date.isLeapYear());
+
+const otherDate = new Data(30, 1, 1992);
+const compared = date.compare(otherDate);
+const compareStates = ['anterior', 'igual', 'posterior'];
+console.log(`A primeira data é ${compareStates[compared + 1]} a segunda.`);

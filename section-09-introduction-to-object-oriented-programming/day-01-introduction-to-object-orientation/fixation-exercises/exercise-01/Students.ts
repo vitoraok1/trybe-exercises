@@ -44,10 +44,29 @@ class Student {
     }
     this._worksGrade = value;
   }
+
+  sumGrades(): number {
+    return [...this.examsGrade, ...this.worksGrade]
+      .reduce((prevGrade, curGrade) => {
+        curGrade += prevGrade;
+        return curGrade;
+      }, 0)
+  }
+
+  gradesAverage(): number {
+    const sumGrades = this.sumGrades();
+    const divider = this.examsGrade.length + this.worksGrade.length;
+
+    return Math.round(sumGrades / divider);
+  }
 }
 
 const student1 = new Student('0001', 'Vitor', [7, 8, 8, 10], [8, 9]);
 console.log(student1);
+console.log('Soma das notas:', student1.sumGrades());
+console.log('Média das notas:', student1.gradesAverage());
 
 const student2 = new Student('0002', 'Cely', [9, 7, 8, 9], [9, 9]);
 console.log(student2);
+console.log('Soma das notas:', student2.sumGrades());
+console.log('Média das notas:', student2.gradesAverage());

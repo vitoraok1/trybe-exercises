@@ -210,7 +210,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 9: Object-Oriented Programming (POO) and SOLID :hourglass_flowing_sand:
 
-- [ ] 9.1: Introduction to Object Orientation
+- [X] 9.1: Introduction to Object Orientation
 - [ ] 9.2: Inheritance and Interfaces
 - [ ] 9.3: Polymorphism
 - [ ] 9.4: SOLID - Introduction and SOD Principles

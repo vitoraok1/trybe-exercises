@@ -1,4 +1,4 @@
-def arithmeticAverage(list):
+def arithmetic_average(list):
     """Take a list and return the arithmetic average"""
     total = 0
     for number in list:
@@ -6,4 +6,4 @@ def arithmeticAverage(list):
     return total / len(list)
 
 
-print("Test arithmeticAverage function -", arithmeticAverage([1, 2, 3, 4]))
+print("Test arithmetic_average function -", arithmetic_average([1, 2, 3, 4]))

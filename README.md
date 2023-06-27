@@ -149,7 +149,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 10.1: Project - Recipes App
 
- ## Back-end Development :hourglass_flowing_sand:
+ ## Back-end Development :heavy_check_mark:
 
 ##### Section 1: Utilizing Containers :heavy_check_mark:
 
@@ -208,46 +208,22 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 8.3: Express with TypeScript
 - [X] 8.4: Project - Trybesmith
 
-##### Section 9: Object-Oriented Programming (POO) and SOLID :hourglass_flowing_sand:
+##### Section 9: Object-Oriented Programming (POO) and SOLID :heavy_check_mark:
 
 - [X] 9.1: Introduction to Object Orientation
-- [ ] 9.2: Inheritance and Interfaces
-- [ ] 9.3: Polymorphism
-- [ ] 9.4: SOLID - Introduction and SOD Principles
-- [ ] 9.5: SOLID - L and I Principles
-- [ ] 9.6: Project - Trybers and Dragons
+- [X] 9.2: Inheritance and Interfaces
+- [X] 9.3: Polymorphism
+- [X] 9.4: SOLID - Introduction and SOD Principles
+- [X] 9.5: SOLID - L and I Principles
+- [X] 9.6: Project - Trybers and Dragons
 
-##### Section 10: Project - Trybe Football Club :closed_book:
+##### Section 10: Project - Trybe Football Club :heavy_check_mark:
 
-- [ ] 10.1: Project - TFC - Trybe Football Club
+- [X] 10.1: Project - TFC - Trybe Football Club
 
-##### Section 11: Introduction to MongoDB :closed_book:
+## Computer Science :hourglass_flowing_sand:
 
-- [ ] 11.1: MongoDB - Introduction
-- [ ] 11.2: Filter Operators
-- [ ] 11.3: Query Operators
-- [ ] 11.1: Simple Updates
-- [ ] 11.2: Complex Updates - Arrays
-- [ ] 11.3: Project - Commerce
-
-##### Section 12: MongoDB with Node.js and POO :closed_book:
-
-- [ ] 12.1: Mongoose and MSC architecture (Model Layer)
-- [ ] 12.2: Mongoose and MSC architecture (Service and Controller Layer)
-- [ ] 12.3: Project - Car Shop
-
-##### Section 13: Project - Delivery APP :closed_book:
-
-- [ ] 13.1: Project - Delivery APP
-
-##### Session 14: MasterClass - VPS, CI/CD :closed_book:
-
-- [ ] 14.1: VPS
-- [ ] 14.2: Day 2
-
-## Computer Science :closed_book:
-
-##### Section 1: Introduction to Python :closed_book:
+##### Section 1: Introduction to Python :hourglass_flowing_sand:
 
 - [ ] 1.1: Learning Python
 - [ ] 1.2: Data Input and Output

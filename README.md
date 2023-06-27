@@ -226,40 +226,24 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 1: Introduction to Python :hourglass_flowing_sand:
 
 - [ ] 1.1: Learning Python
-- [ ] 1.2: Data Input and Output
-- [ ] 1.3: Tests
-- [ ] 1.4: Project - Job Insights
+- [ ] 1.2: Data Input and Output with Tests
 
-##### Section 2: Project Patterns :closed_book:
+##### Section 2: Algorithms :closed_book:
 
-- [ ] 2.1: POO in Python
-- [ ] 2.2: Iterator, Adapter, Strategy - Patterns
-- [ ] 2.3: Decorator, Observer, Factory - Patterns
-- [ ] 2.4: Project - Inventory Reports
+- [ ] 2.1: Complexity of algorithms
+- [ ] 2.2: Recursion and Problem Solving Strategies
+- [ ] 2.3: Sorting and Searching Algorithms
+- [ ] 2.4: Project - Algorithms
 
-##### Section 3: Network and Data Scrapping :closed_book:
+##### Section 3: Data Structure I: Linear lists :closed_book:
 
-- [ ] 3.1: Network Architecture
-- [ ] 3.2: Data Scrapping
-- [ ] 3.3: Other Tools - Data Scrapping
-- [ ] 3.4: Project - Tech News
+- [ ] 3.1: POO in Python
+- [ ] 3.2: Arrays
+- [ ] 3.3: Node and Linked Lists
+- [ ] 3.4: Stacks and Queues
+- [ ] 3.5: Project TING - Trybe is Not Google
 
-##### Section 4: Algorithms :closed_book:
-
-- [ ] 4.1: Algorithms Complexity
-- [ ] 4.2: Recursion and Problem Solving Strategies
-- [ ] 4.3: Sort and search algorithms
-- [ ] 4.4: Project - Algorithms
-
-##### Section 5: Arrays, Lists, Queues and Stacks :closed_book:
-
-- [ ] 5.1: Computer Architecture
-- [ ] 5.2: Arrays
-- [ ] 5.3: Node and Linked Lists
-- [ ] 5.4: Stacks and Queues
-- [ ] 5.5: Project - TING - Trybe is Not Google
-
-##### Section 6: Data Structure II: Hashmaps and Sets :closed_book:
+##### Section 4: Data Structure II: Hashmaps and Sets :closed_book:
 
 - [ ] 6.1: Hashmap and Dict
 - [ ] 6.2: Set

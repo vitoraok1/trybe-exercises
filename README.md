@@ -226,7 +226,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 1: Introduction to Python :hourglass_flowing_sand:
 
 - [X] 1.1: Learning Python
-- [ ] 1.2: Data Input and Output with Tests
+- [X] 1.2: Data Input and Output with Tests
 
 ##### Section 2: Algorithms :closed_book:
 

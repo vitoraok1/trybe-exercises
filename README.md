@@ -231,7 +231,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 2: Algorithms :hourglass_flowing_sand:
 
 - [X] 2.1: Complexity of algorithms
-- [ ] 2.2: Recursion and Problem Solving Strategies
+- [X] 2.2: Recursion and Problem Solving Strategies
 - [ ] 2.3: Sorting and Searching Algorithms
 - [ ] 2.4: Project - Algorithms
 

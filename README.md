@@ -228,16 +228,16 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 1.1: Learning Python
 - [X] 1.2: Data Input and Output with Tests
 
-##### Section 2: Algorithms :hourglass_flowing_sand:
+##### Section 2: Algorithms :heavy_check_mark:
 
 - [X] 2.1: Complexity of algorithms
 - [X] 2.2: Recursion and Problem Solving Strategies
-- [ ] 2.3: Sorting and Searching Algorithms
-- [ ] 2.4: Project - Algorithms
+- [X] 2.3: Sorting and Searching Algorithms
+- [X] 2.4: Project - Algorithms
 
-##### Section 3: Data Structure I: Linear lists :closed_book:
+##### Section 3: Data Structure I: Linear lists :hourglass_flowing_sand:
 
-- [ ] 3.1: POO in Python
+- [X] 3.1: POO in Python
 - [ ] 3.2: Arrays
 - [ ] 3.3: Node and Linked Lists
 - [ ] 3.4: Stacks and Queues

@@ -1,0 +1,3 @@
+# Arrays
+
+Today we are going to start studying one of the most fundamental topics in computer science, `data structure`. Let's study the impact that structure decisions have on our code in terms of performance and space utilization. Let's analyze how the way the data are arranged influences the resolution of a given problem. We will learn about the *Linear List* abstract type and the data structure known as an *array*, learning how to use it, when convenient, to solve problems.

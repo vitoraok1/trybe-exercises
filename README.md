@@ -238,7 +238,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Section 3: Data Structure I: Linear lists :hourglass_flowing_sand:
 
 - [X] 3.1: POO in Python
-- [ ] 3.2: Arrays
+- [X] 3.2: Arrays
 - [ ] 3.3: Node and Linked Lists
 - [ ] 3.4: Stacks and Queues
 - [ ] 3.5: Project TING - Trybe is Not Google

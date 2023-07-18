@@ -235,15 +235,15 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 2.3: Sorting and Searching Algorithms
 - [X] 2.4: Project - Algorithms
 
-##### Section 3: Data Structure I: Linear lists :hourglass_flowing_sand:
+##### Section 3: Data Structure I: Linear lists :heavy_check_mark:
 
 - [X] 3.1: POO in Python
 - [X] 3.2: Arrays
 - [X] 3.3: Node and Linked Lists
-- [ ] 3.4: Stacks and Queues
-- [ ] 3.5: Project TING - Trybe is Not Google
+- [X] 3.4: Stacks and Queues
+- [X] 3.5: Project TING - Trybe is Not Google
 
-##### Section 4: Data Structure II: Hashmaps and Sets :closed_book:
+##### Section 4: Data Structure II: Hashmaps and Sets :hourglass_flowing_sand:
 
 - [ ] 6.1: Hashmap and Dict
 - [ ] 6.2: Set

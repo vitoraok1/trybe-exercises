@@ -245,6 +245,6 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Section 4: Data Structure II: Hashmaps and Sets :hourglass_flowing_sand:
 
-- [ ] 6.1: Hashmap and Dict
-- [ ] 6.2: Set
-- [ ] 6.3: Project - Restaurant Orders
+- [ ] 4.1: Hashmap and Dict
+- [ ] 4.2: Set
+- [ ] 4.3: Project - Restaurant Orders

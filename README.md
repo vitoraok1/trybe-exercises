@@ -221,7 +221,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 10.1: Project - TFC - Trybe Football Club
 
-## Computer Science :hourglass_flowing_sand:
+## Computer Science :heavy_check_mark:
 
 ##### Section 1: Introduction to Python :heavy_check_mark:
 
@@ -243,8 +243,51 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.4: Stacks and Queues
 - [X] 3.5: Project TING - Trybe is Not Google
 
-##### Section 4: Data Structure II: Hashmaps and Sets :hourglass_flowing_sand:
+##### Section 4: Data Structure II: Hashmaps and Sets :heavy_check_mark:
 
 - [X] 4.1: Hashmap and Dict
-- [ ] 4.2: Set
-- [ ] 4.3: Project - Restaurant Orders
+- [X] 4.2: Set
+- [X] 4.3: Project - Restaurant Orders
+
+## Elective :hourglass_flowing_sand:
+
+##### Section 1: Python :hourglass_flowing_sand:
+
+- [ ] 1.1: Debugging Strategies with Python
+- [ ] 1.2: Automating bug hunting with Pytest
+- [ ] 1.3: Moving forward with testing in Python
+- [ ] 1.4: Live Class
+
+##### Section 2: Object Oriented Programming :closed_book:
+
+- [ ] 2.1: POO in Python
+- [ ] 2.2: Live Class
+- [ ] 2.3: POO Pillars
+- [ ] 2.4: Abstract classes, interfaces and protocols
+- [ ] 2.5: Project - Inventory Report
+- [ ] 2.6: Live Class
+
+##### Section 3: Data Scraping :closed_book:
+
+- [ ] 3.1: Data Scraping
+- [ ] 3.2: Other data scrapping tools
+- [ ] 3.3: MongoDB and Crawlers
+- [ ] 3.4: Live Class
+
+##### Section 4: Flask :closed_book:
+
+- [ ] 4.1: Environment and first API
+- [ ] 4.2: Server Side Rendering
+- [ ] 4.3: Live Class
+- [ ] 4.4: Going Deeper in Template with Flask
+- [ ] 4.5: API and Tests with Flask
+- [ ] 4.6: Project - Translate
+- [ ] 4.7: Live Class
+
+##### Section 5: Django I :closed_book:
+
+- [ ] 5.1: Database and ORM Environment
+- [ ] 5.2: Django templates
+- [ ] 5.3: Template Forms and Relationships
+- [ ] 5.4: Live Class
+- [ ] 5.5: Django Rest Framework

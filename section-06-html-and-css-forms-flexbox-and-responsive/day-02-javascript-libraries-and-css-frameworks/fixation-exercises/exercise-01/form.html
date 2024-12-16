@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário TrybeTrip</title>
+</head>
+<body>
+    <div class="title">
+        <br>
+        <h1 class="h1">Formulário TrybeTrip</h1>
+    </div>
+    <main>
+        <form>
+            <section>
+                <label for="name">Nome Completo:</label>
+                <input type="text" name="complete-name" id="name" placeholder="Digite seu nome" minlength="10" maxlength="40" required class="form-control">
+            </section>
+
+            <br>
+
+            <section>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="e-mail" id="mail" placeholder="Digite seu e-mail" minlength="10" maxlength="50" required class="form-control">
+            </section>
+
+            <br>
+
+            <section>
+
+                <label for="">Destino Preferido:</label>
+                <br><br>
+                
+                <input type="radio" name="trip-options" id="option1" value="cidade" checked class="form-check-input">
+                <label for="option1">Cidade
+                </label>
+
+                <input type="radio" name="trip-options" id="option2" value="campo" class="form-check-input">
+                <label for="option2">Campo
+                </label>
+
+                <input type="radio" name="trip-options" id="option2" value="campo" class="form-check-input">
+                <label for="option3">Praia
+                </label>
+
+                <input type="radio" name="trip-options" id="option2" value="campo" class="form-check-input">
+                <label for="option4">Montanhas
+                </label>
+
+            </section>
+            
+            <br>
+
+            <section id="text-area">
+                <label for="textarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label><br><br>
+                <textarea name="why-me" id="textarea" cols="40" rows="4" placeholder="Seja criativo e nos conte por que você merece vencer esse concurso!" maxlength="500" class="form-control"></textarea>
+            </section>
+            <br>
+            <section>
+                <label for="trip-date">Qual a melhor data para realizar sua viagem?</label><br>
+                <input type="date" name="trip-date" id="trip-date">
+            </section>
+
+            <br>
+
+            <section>
+            <label for="newsletter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label><br><br>
+            <input type="checkbox" name="subscribe-newsletter" id="newsletter" class="form-check-input"><label for="newsletter"></label>Sim, quero receber as novidades da <b>Trybe!</b>
+            </section>
+
+            <br>
+
+            <section>
+            <input type="checkbox" name="contract" id="terms" class="form-check-input">
+            <label for="terms"></label>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+            </section>
+
+            <br><br>
+
+            <section>
+            <button type="submit" id="send-button" class="btn btn-success">Enviar formulário</button>
+            <button type="button" id="clear-button" class="btn btn-secondary">Limpar formulário</button>
+            </section>
+
+        </form>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
